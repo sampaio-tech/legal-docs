@@ -149,6 +149,25 @@
                 font-size: 1rem;
             }
         }
+
+        #language-select {
+            font-size: 1.15rem;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+            border-radius: 8px;
+            border: 1.5px solid #2D5AF0;
+            background: #f8fafc url('data:image/svg+xml;utf8,<svg fill=\'%232D5AF0\' height=\'20\' viewBox=\'0 0 20 20\' width=\'20\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M7 10l5 5 5-5H7z\'/></svg>') no-repeat right 0.7rem center/1.2rem 1.2rem;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            margin-left: 0.5rem;
+            min-width: 200px;
+            transition: border-color 0.2s;
+        }
+        #language-select:focus {
+            border-color: #1E293B;
+            outline: none;
+        }
     </style>
 </head>
 <body>
@@ -159,15 +178,31 @@
                 <a href="#privacy-policy">Privacy Policy</a>
                 <a href="#terms-of-use">Terms of Use</a>
             </nav>
+            <div style="margin-top:2rem;">
+                <label for="language-select" style="font-weight:600; font-size:1.2rem; font-family:'Segoe UI',Arial,sans-serif;">🌐 Language:</label>
+                <select id="language-select">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="pt">🇧🇷 Português</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="it">🇮🇹 Italiano</option>
+                    <option value="nl">🇳🇱 Nederlands</option>
+                    <option value="ru">🇷🇺 Русский</option>
+                    <option value="zh">🇨🇳 中文</option>
+                    <option value="ar">🇸🇦 العربية</option>
+                </select>
+            </div>
         </header>
 
-        <section id="privacy-policy" class="section">
+        <!-- PRIVACY POLICY SECTIONS -->
+        <section id="privacy-policy-en" class="section" lang="en">
             <h1>Privacy Policy</h1>
             <p>v1.0 | March 2nd, 2023</p>
 
             <h2>Introduction</h2>
             <p>
-                PEDRO HENRIQUE DA SILVA SAMPAIO (“we”) is committed to protecting your privacy. This Privacy Policy explains how we collect and use your information through our mobile applications (“Apps”).
+                PEDRO HENRIQUE DA SILVA SAMPAIO ("we") is committed to protecting your privacy. This Privacy Policy explains how we collect and use your information through our mobile applications ("Apps").
             </p>
 
             <h2>Data Privacy</h2>
@@ -218,8 +253,290 @@
             <p>Last updated on 2nd March 2023.<br>
             We take the privacy of our users seriously and are committed to protecting your personal information. Thank you for using our App.</p>
         </section>
+        <section id="privacy-policy-pt" class="section" lang="pt" style="display:none;">
+            <h1>Política de Privacidade</h1>
+            <p>v1.0 | 2 de março de 2023</p>
+            <h2>Introdução</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO ("nós") está comprometido com a proteção da sua privacidade. Esta Política de Privacidade explica como coletamos e usamos suas informações por meio dos nossos aplicativos móveis ("Apps").</p>
+            <h2>Privacidade de Dados</h2>
+            <p>Não armazenamos nem compartilhamos qualquer conteúdo que você cria com nossos Apps. Entendemos que o conteúdo criado usando nosso App é pessoal e estamos comprometidos em proteger seu conteúdo e privacidade.</p>
+            <h2>Privacidade do Usuário</h2>
+            <p>Não vendemos, trocamos ou transferimos para terceiros suas informações pessoalmente identificáveis. Não coletamos ou distribuímos qualquer informação pessoal (como nome, endereço, cartão de débito ou crédito, ou qualquer informação bancária) por meio dos nossos Apps. Isso significa que não coletamos nenhum tipo de informação transmitida pela nossa rede.</p>
+            <h2>Privacidade de Crianças</h2>
+            <p>Você deve ter 4 anos de idade ou mais para usar os Apps. Não coletamos intencionalmente informações pessoais de crianças menores de 4 anos. Se você for pai, mãe ou responsável e tomar conhecimento de que seu filho nos forneceu informações pessoais, entre em contato conosco imediatamente.</p>
+            <h2>Armazenamento de Conteúdo do App</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO respeita sua privacidade. Não coletamos ou armazenamos informações pessoais no armazenamento de conteúdo do App.</p>
+            <h2>Informações que coletamos automaticamente</h2>
+            <p>Podemos coletar informações sobre o seu dispositivo móvel, incluindo modelo, tipo e versão do sistema operacional, identificadores únicos, idioma, mobile network information e o endereço IP pelo qual você acessou o serviço. Essas informações são utilizadas apenas para garantir o funcionamento adequado do App.</p>
+            <h2>Suporte ao Cliente</h2>
+            <p>Quando você solicita suporte ao cliente, pedimos seu endereço de e-mail e outras informações de contato para que possamos responder ao seu feedback. Também podemos coletar informações relacionadas à sua solicitação de suporte para nos ajudar a resolver seu problema. Você pode entrar em contato conosco com dúvidas ou comentários diretamente em: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <h2>Serviços de Terceiros</h2>
+            <p>Alguns recursos do aplicativo podem envolver serviços de terceiros. Não somos responsáveis pelas práticas de privacidade desses serviços de terceiros, e você deve revisar suas políticas de privacidade separadamente.</p>
+            <h2>Alterações nesta Política de Privacidade</h2>
+            <p>Reservamo-nos o direito de atualizar ou modificar esta Política de Privacidade a qualquer momento. O uso contínuo dos Apps após quaisquer alterações ou revisões desta Política de Privacidade indica sua concordância com os termos da política revisada. Recomendamos que você revise esta Política de Privacidade periodicamente para quaisquer atualizações ou alterações.</p>
+            <h2>Fale Conosco</h2>
+            <p>Se você tiver alguma dúvida sobre esta Política de Privacidade ou nossas práticas, entre em contato conosco em: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <p>Última atualização em 2 de março de 2023.<br>Levamos a privacidade dos nossos usuários a sério e estamos comprometidos em proteger suas informações pessoais. Obrigado por usar nosso App.</p>
+        </section>
+        <section id="privacy-policy-es" class="section" lang="es" style="display:none;">
+            <h1>Política de Privacidad</h1>
+            <p>v1.0 | 2 de marzo de 2023</p>
+            <h2>Introducción</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO ("nosotros") se compromete a proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos y usamos su información a través de nuestras aplicaciones móviles ("Apps").</p>
+            <h2>Privacidad de Datos</h2>
+            <p>No almacenamos ni compartimos ninguno de los contenidos que crea con nuestras Apps. Entendemos que el contenido que crea usando nuestra App es personal para usted y estamos comprometidos a proteger su contenido y privacidad.</p>
+            <h2>Privacidad del Usuario</h2>
+            <p>No vendemos, intercambiamos ni transferimos a terceros su información personal identificable. No recopilamos ni distribuimos ninguna información personal (como nombre, dirección, tarjeta de débito o crédito, o cualquier información bancaria) a través de nuestras Apps. Eso significa que no recopilamos ningún tipo de información transmitida a través de nuestra red.</p>
+            <h2>Privacidad de los Niños</h2>
+            <p>Debe tener 4 años de edad o más para usar las Apps. No recopilamos intencionadamente información personal de niños menores de 4 años. Si usted es padre, madre o tutor y se da cuenta de que su hijo nos ha proporcionado información personal, contáctenos de inmediato.</p>
+            <h2>Almacenamiento de Contenido de la App</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO respeta su privacidad. No recopilamos ni almacenamos información personal en el almacenamiento de contenido de la App.</p>
+            <h2>Información que recopilamos automáticamente</h2>
+            <p>Podemos recopilar información sobre su dispositivo móvil, incluido el modelo, el tipo y la versión del sistema operativo, identificadores únicos, idioma, información de la red móvil y la dirección IP a través de la cual accedió al servicio. Esta información se utiliza solo para garantizar el correcto funcionamiento de la App.</p>
+            <h2>Soporte al Cliente</h2>
+            <p>Cuando solicita soporte al cliente, le pedimos su dirección de correo electrónico y otra información de contacto para poder responderle. También podemos recopilar información relacionada con su solicitud de soporte para ayudarnos a resolver su problema. Puede contactarnos con cualquier pregunta o comentario directamente en: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <h2>Servicios de Terceros</h2>
+            <p>Algunas funciones de la aplicación pueden involucrar servicios de terceros. No somos responsables de las prácticas de privacidad de estos servicios de terceros, y debe revisar sus políticas de privacidad por separado.</p>
+            <h2>Cambios en esta Política de Privacidad</h2>
+            <p>Nos reservamos el derecho de actualizar o modificar esta Política de Privacidad en cualquier momento. El uso continuado de las Apps después de cualquier cambio o revisión de esta Política de Privacidad indicará su acuerdo con los términos de la política revisada. Le recomendamos que revise esta Política de Privacidad periódicamente para cualquier actualización o cambio.</p>
+            <h2>Contáctenos</h2>
+            <p>Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras prácticas, puede contactarnos en: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <p>Última actualización el 2 de marzo de 2023.<br>Nos tomamos en serio la privacidad de nuestros usuarios y estamos comprometidos a proteger su información personal. Gracias por usar nuestra App.</p>
+        </section>
+        <section id="privacy-policy-fr" class="section" lang="fr" style="display:none;">
+            <h1>Conditions d'Utilisation</h1>
+            <p>v1.0 | 2 mars 2023</p>
+            <h2>Introduction</h2>
+            <p>
+                Bienvenue chez PEDRO HENRIQUE DA SILVA SAMPAIO. En utilisant nos applications de télécommande TV (« Apps »), vous acceptez les présentes Conditions d'Utilisation (« Accord »).<br>
+                En utilisant nos Apps, vous acceptez d'être lié par les termes et conditions de cet Accord. Si vous n'acceptez pas ces termes et conditions, veuillez ne pas utiliser nos Apps.
+            </p>
+            <h2>Utilisation des Apps</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO vous accorde une licence non exclusive, non transférable et limitée pour utiliser les Apps à des fins personnelles et non commerciales. Vous ne pouvez pas utiliser les Apps à des fins illégales ou non autorisées.
+            </p>
+            <h2>Propriété Intellectuelle</h2>
+            <p>
+                Les Apps, y compris mais sans s'y limiter leur conception, leur logiciel et leur contenu, sont la propriété de PEDRO HENRIQUE DA SILVA SAMPAIO et sont protégées par les lois sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer, vendre ou transférer une partie des Apps sans notre consentement écrit préalable.
+            </p>
+            <h2>Contenu Utilisateur</h2>
+            <p>
+                Vous êtes seul responsable de tout contenu que vous transmettez ou téléchargez via les Apps. Vous acceptez que tout contenu transmis ou téléchargé ne porte pas atteinte aux droits de tiers, y compris mais sans s'y limiter les droits de propriété intellectuelle et de confidentialité.
+            </p>
+            <h2>Stockage du Contenu de l'App</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO respecte votre vie privée. En utilisant les Apps, vous consentez à la collecte et à l'utilisation de vos informations personnelles comme décrit dans notre Politique de Confidentialité.
+            </p>
+            <h2>Exclusion de Garanties</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO ne donne aucune garantie quant à l'exactitude, la fiabilité, l'exhaustivité ou l'actualité du contenu ou des fonctionnalités des Apps. Les Apps sont fournies « telles quelles » sans aucune garantie, expresse ou implicite.
+            </p>
+            <h2>Limitation de Responsabilité</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO ne sera pas responsable des dommages de toute nature résultant de l'utilisation des Apps, y compris mais sans s'y limiter les dommages directs, indirects, accessoires, punitifs et consécutifs.
+            </p>
+            <h2>Indemnisation</h2>
+            <p>
+                Vous acceptez d'indemniser et de dégager de toute responsabilité PEDRO HENRIQUE DA SILVA SAMPAIO, ses affiliés, dirigeants, agents et employés de toute réclamation, demande ou dommage, y compris les honoraires raisonnables d'avocat, résultant de votre utilisation des Apps ou de votre violation de cet Accord.
+            </p>
+            <h2>Résiliation</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO peut résilier cet Accord à tout moment sans préavis. À la résiliation, vous devez immédiatement cesser toute utilisation des Apps.
+            </p>
+            <h2>Droit Applicable</h2>
+            <p>
+                Cet Accord sera régi et interprété conformément aux lois du Brésil, sans tenir compte des principes de conflit de lois.
+            </p>
+            <h2>Accord Intégral</h2>
+            <p>
+                Cet Accord constitue l'intégralité de l'accord entre vous et PEDRO HENRIQUE DA SILVA SAMPAIO concernant les Apps et remplace toutes les communications et propositions antérieures ou contemporaines, orales ou écrites, entre vous et PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Contactez-nous</h2>
+            <p>
+                Si vous avez des questions concernant ces Conditions d'Utilisation, veuillez nous contacter à <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="privacy-policy-de" class="section" lang="de" style="display:none;">
+            <h1>Datenschutzerklärung</h1>
+            <p>v1.0 | 2. März 2023</p>
+            <h2>Einleitung</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO („wir") verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Datenschutzerklärung erklärt, wie wir Ihre Informationen über unsere mobilen Anwendungen („Apps") sammeln und verwenden.</p>
+            <h2>Datenschutz</h2>
+            <p>Wir speichern oder teilen keine Inhalte, die Sie mit unseren Apps erstellen. Wir verstehen, dass die von Ihnen erstellten Inhalte persönlich sind, und verpflichten uns, Ihre Inhalte und Privatsphäre zu schützen.</p>
+            <h2>Benutzerdatenschutz</h2>
+            <p>Wir verkaufen, tauschen oder übertragen Ihre personenbezogenen Daten nicht an Dritte. Wir sammeln oder verteilen keine persönlichen Informationen (wie Name, Adresse, Debit- oder Kreditkarte oder Bankdaten) über unsere Apps. Das bedeutet, dass wir keine Informationen erfassen, die über unser Netzwerk übertragen werden.</p>
+            <h2>Kinderdatenschutz</h2>
+            <p>Sie müssen mindestens 4 Jahre alt sein, um die Apps zu nutzen. Wir sammeln wissentlich keine persönlichen Informationen von Kindern unter 4 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und erfahren, dass Ihr Kind uns persoonliche Informationen zur Verfügung gestellt hat, kontaktieren Sie uns bitte umgehend.</p>
+            <h2>App-Inhaltsspeicherung</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO respektiert Ihre Privatsphäre. Wir sammeln oder speichern keine persönlichen Informationen im Inhaltsspeicher der App.</p>
+            <h2>Automatisch gesammelte Informationen</h2>
+            <p>Wir können Informationen über Ihr mobiles Gerät sammeln, einschließlich Modell, Betriebssystemtyp und -version, eindeutige Kennungen, Sprache, Mobilfunknetz-Informationen und die IP-Adresse, über die Sie auf den Dienst zugegriffen haben. Diese Informationen werden nur verwendet, um das ordnungsgemäße Funktionieren der App zu gewährleisten.</p>
+            <h2>Kundensupport</h2>
+            <p>Wenn Sie den Kundensupport anfordern, fragen wir nach Ihrer E-Mail-Adresse und anderen Kontaktinformationen, damit wir Ihnen antworten können. Wir können auch Informationen zu Ihrer Supportanfrage sammeln, um Ihnen bei der Lösung Ihres Problems zu helfen. Sie können uns mit Fragen oder Kommentaren direkt unter <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a> kontaktieren.</p>
+            <h2>Drittanbieterdienste</h2>
+            <p>Einige Funktionen der App können Dienste von Drittanbietern beinhalten. Wir sind nicht für die Datenschutzpraktiken dieser Drittanbieterdienste verantwortlich, und Sie sollten deren Datenschutzrichtlinien separat überprüfen.</p>
+            <h2>Änderungen dieser Datenschutzerklärung</h2>
+            <p>Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu aktualisieren oder zu ändern. Ihre fortgesetzte Nutzung der Apps nach Änderungen oder Überarbeitungen dieser Datenschutzerklärung gilt als Zustimmung zu den Bedingungen der überarbeiteten Richtlinie. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig auf Aktualisierungen oder Änderungen zu überprüfen.</p>
+            <h2>Kontaktieren Sie uns</h2>
+            <p>Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Praktiken haben, können Sie uns unter <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a> kontaktieren.</p>
+            <p>Zuletzt aktualisiert am 2. März 2023.<br>Wir nehmen den Datenschutz unserer Nutzer ernst und verpflichten uns, Ihre persönlichen Daten zu schützen. Vielen Dank, dass Sie unsere App nutzen.</p>
+        </section>
+        <section id="privacy-policy-it" class="section" lang="it" style="display:none;">
+            <h1>Informativa sulla Privacy</h1>
+            <p>v1.0 | 2 marzo 2023</p>
+            <h2>Introduzione</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO ("noi") si impegna a proteggere la tua privacy. Questa Informativa sulla Privacy spiega come raccogliamo e utilizziamo le tue informazioni tramite le nostre applicazioni mobili ("App").</p>
+            <h2>Privacy dei Dati</h2>
+            <p>Non memorizziamo né condividiamo alcun contenuto che crei con le nostre App. Comprendiamo che il contenuto che crei utilizzando la nostra App è personale e ci impegniamo a proteggere il tuo contenuto e la tua privacy.</p>
+            <h2>Privacy dell'Utente</h2>
+            <p>Non vendiamo, scambiamo o trasferiamo a terzi le tue informazioni personali identificabili. Non raccogliamo né distribuiamo alcuna informazione personale (come nome, indirizzo, carta di debito o credito o qualsiasi informazione bancaria) tramite le nostre App. Ciò significa che non raccogliamo alcun tipo di informazione trasmessa attraverso la nostra rete.</p>
+            <h2>Privacy dei Bambini</h2>
+            <p>Devi avere almeno 4 anni per utilizzare le App. Non raccogliamo consapevolmente informazioni personali da bambini di età inferiore a 4 anni. Se sei un genitore o tutore e vieni a conoscenza che tuo figlio ci ha fornito informazioni personali, ti preghiamo di contattarci immediatamente.</p>
+            <h2>Archiviazione dei Contenuti dell'App</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO rispetta la tua privacy. Non raccogliamo né memorizziamo informazioni personali nell'archiviazione dei contenuti dell'App.</p>
+            <h2>Informazioni che raccogliamo automaticamente</h2>
+            <p>Potremmo raccogliere informazioni sul tuo dispositivo mobile, incluso il modello, il tipo e la versione del sistema operativo, identificatori unici, lingua, informazioni sulla rete mobile e l'indirizzo IP attraverso cui hai acceduto al servizio. Queste informazioni vengono utilizzate solo per garantire il corretto funzionamento dell'App.</p>
+            <h2>Assistenza Clienti</h2>
+            <p>Quando richiedi assistenza clienti, chiediamo il tuo indirizzo e-mail e altre informazioni di contatto, in modo da poterti rispondere. Potremmo anche raccogliere informazioni relative alla tua richiesta di supporto per aiutarci a risolvere il tuo problema. Puoi contattarci per qualsiasi domanda o commento direttamente a: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <h2>Servizi di Terze Parti</h2>
+            <p>Alcune funzionalità dell'app possono coinvolgere servizi di terze parti. Non siamo responsabili delle pratiche sulla privacy di questi servizi di terze parti e dovresti consultare separatamente le loro politiche sulla privacy.</p>
+            <h2>Modifiche a questa Informativa sulla Privacy</h2>
+            <p>Ci riserviamo il diritto di aggiornare o modificare questa Informativa sulla Privacy in qualsiasi momento. L'uso continuato delle App dopo eventuali modifiche o revisioni di questa Informativa sulla Privacy indicherà il tuo accordo con i termini della politica rivista. Ti invitiamo a rivedere periodicamente questa Informativa sulla Privacy per eventuali aggiornamenti o modifiche.</p>
+            <h2>Contattaci</h2>
+            <p>Se hai domande su questa Informativa sulla Privacy o sulle nostre pratiche, puoi contattarci a: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <p>Ultimo aggiornamento il 2 marzo 2023.<br>Prendiamo sul serio la privacy dei nostri utenti e ci impegniamo a proteggere le tue informazioni personali. Grazie per aver utilizzato la nostra App.</p>
+        </section>
+        <section id="privacy-policy-nl" class="section" lang="nl" style="display:none;">
+            <h1>Privacybeleid</h1>
+            <p>v1.0 | 2 maart 2023</p>
+            <h2>Inleiding</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO ("wij") zet zich in voor de bescherming van uw privacy. Dit privacybeleid legt uit hoe wij uw informatie verzamelen en gebruiken via onze mobiele applicaties ("Apps").</p>
+            <h2>Gegevensprivacy</h2>
+            <p>We slaan geen enkele inhoud op die u met onze Apps maakt, noch delen we deze. We begrijpen dat de inhoud die u met onze App maakt persoonlijk is en we zetten ons in om uw inhoud en privacy te beschermen.</p>
+            <h2>Gebruikersprivacy</h2>
+            <p>We verkopen, verhandelen of geven uw persoonlijk identificeerbare informatie niet door aan derden. We verzamelen of verspreiden geen persoonlijke informatie (zoals naam, adres, debet- of creditcard of bankgegevens) via onze Apps. Dit betekent dat we geen enkele informatie verzamelen die via ons netwerk wordt verzonden.</p>
+            <h2>Privacy van kinderen</h2>
+            <p>U moet 4 jaar of ouder zijn om de Apps te gebruiken. We verzamelen niet bewust persoonlijke informatie van kinderen jonger dan 4 jaar. Als u een ouder of voogd bent en u ontdekt dat uw kind ons persoonlijke informatie heeft verstrekt, neem dan onmiddellijk contact met ons op.</p>
+            <h2>Opslag van App-inhoud</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO respecteert uw privacy. We verzamelen of slaan geen persoonlijke informatie op in de opslag van de App-inhoud.</p>
+            <h2>Informatie die we automatisch verzamelen</h2>
+            <p>We kunnen informatie verzamelen over uw mobiele apparaat, waaronder het model, het type en de versie van het besturingssysteem, unieke identificatiegegevens, taal, mobiele netwerkinformatie en het IP-adres waarmee u toegang hebt gekregen tot de dienst. Deze informatie wordt alleen gebruikt om de goede werking van de App te garanderen.</p>
+            <h2>Klantenservice</h2>
+            <p>Wanneer u klantenservice aanvraagt, vragen wij om uw e-mailadres en andere contactgegevens, zodat wij u kunnen antwoorden. We kunnen ook informatie verzamelen over uw ondersteuningsverzoek om ons te helpen uw probleem op te lossen. U kunt contact met ons opnemen met vragen of opmerkingen via: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <h2>Diensten van derden</h2>
+            <p>Sommige functies van de app kunnen diensten van derden omvatten. We zijn niet verantwoordelijk voor het privacybeleid van deze diensten van derden en u dient hun privacybeleid afzonderlijk te raadplegen.</p>
+            <h2>Wijzigingen in dit privacybeleid</h2>
+            <p>We behouden ons het recht voor om dit privacybeleid op elk moment bij te werken of te wijzigen. Uw voortdurende gebruik van de Apps na wijzigingen of herzieningen van dit privacybeleid geeft aan dat u akkoord gaat met de voorwaarden van het herziene beleid. We raden u aan dit privacybeleid regelmatig te controleren op updates of wijzigingen.</p>
+            <h2>Contact opnemen</h2>
+            <p>Als u vragen heeft over dit privacybeleid of onze praktijken, kunt u contact met ons opnemen via: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <p>Laatst bijgewerkt op 2 maart 2023.<br>We nemen de privacy van onze gebruikers serieus en zetten ons in om uw persoonlijke informatie te beschermen. Bedankt voor het gebruik van onze App.</p>
+        </section>
+        <section id="privacy-policy-ru" class="section" lang="ru" style="display:none;">
+            <h1>Политика конфиденциальности</h1>
+            <p>v1.0 | 2 марта 2023 г.</p>
+            <h2>Введение</h2>
+            <p>
+                Добро пожаловать в PEDRO HENRIQUE DA SILVA SAMPAIO. Используя наши приложения для дистанционного управления телевизором («Приложения»), вы соглашаетесь с настоящими Условиями использования («Соглашение»).<br>
+                Используя наши Приложения, вы соглашаетесь соблюдать условия этого Соглашения. Если вы не согласны с этими условиями, пожалуйста, не используйте наши Приложения.
+            </p>
+            <h2>Использование Приложений</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO предоставляет вам неисключительную, непередаваемую, ограниченную лицензию на использование Приложений для личного и некоммерческого использования. Вы не можете использовать Приложения для каких-либо незаконных или несанкционированных целей.
+            </p>
+            <h2>Интеллектуальная собственность</h2>
+            <p>
+                Приложения, включая, помимо прочего, их дизайн, программное обеспечение и контент, являются собственностью PEDRO HENRIQUE DA SILVA SAMPAIO и защищены законами об интеллектуальной собственности. Вы не можете копировать, изменять, распространять, продавать или передавать любую часть Приложений без нашего предварительного письменного согласия.
+            </p>
+            <h2>Контент пользователя</h2>
+            <p>
+                Вы несете полную ответственность за любой контент, который вы передаете или загружаете с помощью Приложений. Вы соглашаетесь с тем, что любой передаваемый или загружаемый вами контент не будет нарушать права третьих лиц, включая, помимо прочего, права интеллектуальной собственности и права на неприкосновенность частной жизни.
+            </p>
+            <h2>Хранение контента приложения</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO уважает вашу конфиденциальность. Используя Приложения, вы соглашаетесь с сбором и использованием вашей личной информации, как указано в нашей Политике конфиденциальности.
+            </p>
+            <h2>Отказ от гарантий</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO не дает никаких гарантий или заверений относительно точности, надежности, полноты или актуальности содержания или функциональности Приложений. Приложения предоставляются «как есть» без каких-либо гарантий, явных или подразумеваемых.
+            </p>
+            <h2>Ограничение ответственности</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO не несет ответственности за любые убытки любого рода, возникшие в результате использования Приложений, включая, помимо прочего, прямые, косвенные, случайные, штрафные и косвенные убытки.
+            </p>
+            <h2>Возмещение убытков</h2>
+            <p>
+                Вы соглашаетесь возместить и обезопасить PEDRO HENRIQUE DA SILVA SAMPAIO, его аффилированных лиц, должностных лиц, агентов и сотрудников от любых претензий, требований или убытков, включая разумные гонорары адвокатов, возникших в результате использования вами Приложений или нарушения вами настоящего Соглашения.
+            </p>
+            <h2>Прекращение</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO может прекратить действие настоящего Соглашения в любое время без предварительного уведомления. После прекращения вы должны немедленно прекратить использование Приложений.
+            </p>
+            <h2>Применимое право</h2>
+            <p>
+                Настоящее Соглашение регулируется и толкуется в соответствии с законодательством Бразилии без учета каких-либо принципов коллизионного права.
+            </p>
+            <h2>Полное соглашение</h2>
+            <p>
+                Настоящее Соглашение составляет полное соглашение между вами и PEDRO HENRIQUE DA SILVA SAMPAIO в отношении Приложений и заменяет все предыдущие или одновременные устные или письменные сообщения и предложения между вами и PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Связаться с нами</h2>
+            <p>
+                Если у вас есть вопросы по поводу этих Условий использования, свяжитесь с нами по адресу <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="privacy-policy-zh" class="section" lang="zh" style="display:none;">
+            <h1>隐私政策</h1>
+            <p>v1.0 | 2023年3月2日</p>
+            <h2>简介</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO（"我们"）致力于保护您的隐私。本隐私政策说明了我们如何通过我们的移动应用程序（"应用"）收集和使用您的信息。</p>
+            <h2>数据隐私</h2>
+            <p>我们不会存储或分享您通过我们的应用创建的任何内容。我们理解您通过我们的应用创建的内容对您来说是个人的，我们致力于保护您的内容和隐私。</p>
+            <h2>用户隐私</h2>
+            <p>我们不会向外部方出售、交易或转让您的个人身份信息。我们不会通过我们的应用收集或分发任何个人信息（如姓名、地址、借记卡或信用卡或任何银行信息）。这意味着我们不会收集通过我们的网络传输的任何信息。</p>
+            <h2>儿童隐私</h2>
+            <p>您必须年满4岁才能使用应用。我们不会有意收集4岁以下儿童的个人信息。如果您是家长或监护人，并且发现您的孩子向我们提供了个人信息，请立即与我们联系。</p>
+            <h2>应用内容存储</h2>
+            <p>PEDRO HENRIQUE DA SILVA SAMPAIO 尊重您的隐私。我们不会在应用内容存储中收集或存储任何个人信息。</p>
+            <h2>我们自动收集的信息</h2>
+            <p>我们可能会收集有关您的移动设备的信息，包括其型号、操作系统类型和版本、唯一标识符、语言、移动网络信息以及您访问服务时的IP地址。此信息仅用于确保应用的正常运行。</p>
+            <h2>客户支持</h2>
+            <p>当您请求客户支持时，我们会要求您提供电子邮件地址和其他联系信息，以便我们回复您的反馈。我们还可能收集与您的支持请求相关的信息，以帮助我们解决您的问题。您可以通过以下方式直接联系我们：<a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>。</p>
+            <h2>第三方服务</h2>
+            <p>应用的某些功能可能涉及第三方服务。请注意，我们不对这些第三方服务的隐私做法负责，您应单独查阅其隐私政策。</p>
+            <h2>隐私政策的变更</h2>
+            <p>我们保留随时更新或修改本隐私政策的权利。您在本隐私政策变更或修订后继续使用应用，即表示您同意修订后的政策条款。我们建议您定期查阅本隐私政策以获取任何更新或更改。</p>
+            <h2>联系我们</h2>
+            <p>如果您对本隐私政策或我们的做法有任何疑问，可以通过以下方式联系我们：<a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>。</p>
+            <p>最后更新于2023年3月2日。<br>我们非常重视用户的隐私，并致力于保护您的个人信息。感谢您使用我们的应用。</p>
+        </section>
+        <section id="privacy-policy-ar" class="section" lang="ar" style="display:none; direction:rtl;">
+            <h1>سياسة الخصوصية</h1>
+            <p>الإصدار 1.0 | 2 مارس 2023</p>
+            <h2>مقدمة</h2>
+            <p>تلتزم PEDRO HENRIQUE DA SILVA SAMPAIO ("نحن") بحماية خصوصيتك. توضح سياسة الخصوصية هذه كيف نجمع معلوماتك ونستخدمها من خلال تطبيقاتنا المحمولة ("التطبيقات").</p>
+            <h2>خصوصية البيانات</h2>
+            <p>نحن لا نخزن أو نشارك أي محتوى تقوم بإنشائه باستخدام تطبيقاتنا. نحن ندرك أن المحتوى الذي تنشئه باستخدام تطبيقنا هو شخصي بالنسبة لك ونحن ملتزمون بحماية محتواك وخصوصيتك.</p>
+            <h2>خصوصية المستخدم</h2>
+            <p>نحن لا نبيع أو نتاجر أو ننقل معلوماتك الشخصية إلى أطراف خارجية. نحن لا نجمع أو نوزع أي معلومات شخصية (مثل الاسم أو العنوان أو بطاقة الخصم أو الائتمان أو أي معلومات بنكية) من خلال تطبيقاتنا. هذا يعني أننا لا نجمع أي نوع من المعلومات المنقولة عبر شبكتنا.</p>
+            <h2>خصوصية الأطفال</h2>
+            <p>يجب أن يكون عمرك 4 سنوات أو أكثر لاستخدام التطبيقات. نحن لا نجمع عن عمد معلومات شخصية من الأطفال دون سن 4 سنوات. إذا كنت أحد الوالدين أو الأوصياء وأدركت أن طفلك قد زودنا بمعلومات شخصية، يرجى الاتصال بنا فوراً.</p>
+            <h2>تخزين محتوى التطبيق</h2>
+            <p>تحترم PEDRO HENRIQUE DA SILVA SAMPAIO خصوصيتك. نحن لا نجمع أو نخزن أي معلومات شخصية في تخزين محتوى التطبيق.</p>
+            <h2>المعلومات التي نجمعها تلقائيًا</h2>
+            <p>قد نجمع معلومات حول جهازك المحمول، بما في ذلك الطراز ونوع نظام التشغيل وإصداره والمعرفات الفريدة واللغة ومعلومات الشبكة المحمولة وعنوان بروتوكول الإنترنت (IP) الذي استخدمته للوصول إلى الخدمة. تُستخدم هذه المعلومات فقط لضمان التشغيل السليم للتطبيق.</p>
+            <h2>دعم العملاء</h2>
+            <p>عندما تطلب دعم العملاء، نطلب عنوان بريدك الإلكتروني ومعلومات اتصال أخرى حتى نتمكن من الرد عليك. قد نجمع أيضًا معلومات تتعلق بطلب الدعم الخاص بك لمساعدتنا في حل مشكلتك. يمكنك التواصل معنا مباشرة لأي استفسارات أو تعليقات عبر: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <h2>خدمات الطرف الثالث</h2>
+            <p>قد تتضمن بعض ميزات التطبيق خدمات من أطراف ثالثة. يرجى ملاحظة أننا لسنا مسؤولين عن ممارسات الخصوصية لهذه الخدمات ويجب عليك مراجعة سياسات الخصوصية الخاصة بهم بشكل منفصل.</p>
+            <h2>التغييرات على سياسة الخصوصية هذه</h2>
+            <p>نحتفظ بالحق في تحديث أو تعديل سياسة الخصوصية هذه في أي وقت. استمرارك في استخدام التطبيقات بعد أي تغييرات أو مراجعات على سياسة الخصوصية هذه يدل على موافقتك على شروط السياسة المعدلة. نشجعك على مراجعة سياسة الخصوصية هذه بشكل دوري لأي تحديثات أو تغييرات.</p>
+            <h2>اتصل بنا</h2>
+            <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه أو ممارساتنا، يمكنك التواصل معنا عبر: <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.</p>
+            <p>آخر تحديث في 2 مارس 2023.<br>نحن نأخذ خصوصية مستخدمينا على محمل الجد ونلتزم بحماية معلوماتك الشخصية. شكرًا لاستخدامك تطبيقنا.</p>
+        </section>
 
-        <section id="terms-of-use" class="section">
+        <!-- TERMS OF USE SECTIONS -->
+        <section id="terms-of-use-en" class="section" lang="en">
             <h1>Terms of Use</h1>
             <p>v1.0 | March 2nd, 2023</p>
 
@@ -284,8 +601,455 @@
                 If you have any questions about these Terms of Use, please contact us at <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
             </p>
         </section>
+        <section id="terms-of-use-pt" class="section" lang="pt" style="display:none;">
+            <h1>Termos de Uso</h1>
+            <p>v1.0 | 2 de março de 2023</p>
+            <h2>Introdução</h2>
+            <p>
+                Bem-vindo a PEDRO HENRIQUE DA SILVA SAMPAIO. Ao usar nossos aplicativos de controle remoto para TV ("Apps"), você concorda com os seguintes Termos de Uso ("Acordo").<br>
+                Ao usar nossos Apps, você concorda em cumprir os termos e condições de este Acordo. Se você não concorda com estes termos e condições, por favor, não use nossos Apps.
+            </p>
+            <h2>Uso dos Apps</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO concede a você uma licença não exclusiva, intransferível e limitada para usar os Apps para uso pessoal e não comercial. Você não pode usar os Apps para qualquer finalidade ilegal ou não autorizada.
+            </p>
+            <h2>Propriedade Intelectual</h2>
+            <p>
+                Os Apps, incluindo, mas não limitado ao design, software e conteúdo, são propriedade de PEDRO HENRIQUE DA SILVA SAMPAIO e estão protegidos por leis de propriedade intelectual. Você não pode copiar, modificar, distribuir, vender ou transferir qualquer parte dos Apps sem nosso consentimento prévio por escrito.
+            </p>
+            <h2>Conteúdo do Usuário</h2>
+            <p>
+                Você é o único responsável de qualquer conteúdo que transmita ou envie usando os Apps. Você stem que qualquer conteúdo transmitido ou enviado não infringirá direitos de terceiros, incluindo, mas não se limitando a direitos de propriedade intelectual e privacidad.
+            </p>
+            <h2>Armazenamento de Conteúdo do App</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO respektiert sua privacidad. Ao usar os Apps, você consente à coleta e ao uso de suas informações pessoais conforme descrito em nossa Política de Privacidade.
+            </p>
+            <h2>Isenção de Garantias</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO não oferece garantias ou representações sobre a precisão, confiabilidade, integridade ou atualidade do conteúdo ou funcionalidade dos Apps. Os Apps são fornecidos "tal como estão" zonder enige garantie, explicita ou implicita.
+            </p>
+            <h2>Limitação de Responsabilidade</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO não será responsável por quaisquer danos de qualquer tipo decorrentes do uso dos Apps, incluindo, mas não se limitando a danos diretos, indiretos, incidentais, punitivos e consequenciais.
+            </p>
+            <h2>Indemnização</h2>
+            <p>
+                Você concorda em indenizar e tenha PEDRO HENRIQUE DA SILVA SAMPAIO, seus afiliados, diretores, agentes e empregados de qualquer reclamação, demanda ou dano, incluindo honorários advocatícios razoáveis, que resultam do uso dos Apps ou violação deste Acordo.
+            </p>
+            <h2>Rescisão</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO pode rescindir este Acordo a qualquer momento sem prévio aviso. Após a rescisão, você deve cessar imediatamente todo uso dos Apps.
+            </p>
+            <h2>Direito Aplicável</h2>
+            <p>
+                Este Acordo será regido e interpretado de acordo com as leis do Brasil, sem considerar quaisquer princípios de conflitos de leis.
+            </p>
+            <h2>Acordo Integral</h2>
+            <p>
+                Este Acordo constitui o acordo integral entre você e PEDRO HENRIQUE DA SILVA SAMPAIO em relação às Apps e substitui todas as comunicações e propostas anteriores ou contemporâneas, orais ou escritas, entre você e PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Contáctenos</h2>
+            <p>
+                Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco em <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="terms-of-use-es" class="section" lang="es" style="display:none;">
+            <h1>Términos de Uso</h1>
+            <p>v1.0 | 2 de marzo de 2023</p>
+            <h2>Introducción</h2>
+            <p>
+                Bienvenido a PEDRO HENRIQUE DA SILVA SAMPAIO. Al usar nuestras aplicaciones de control remoto para TV ("Apps"), usted acepta los siguientes Términos de Uso ("Acuerdo").<br>
+                Al usar nuestras Apps, usted acepta estar sujeto a los términos y condiciones de este Acuerdo. Si no está de acuerdo con estos términos y condiciones, por favor no use nuestras Apps.
+            </p>
+            <h2>Uso de las Apps</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO le otorga una licencia no exclusiva, intransferible y limitada para usar las Apps para uso personal y no comercial. No puede usar las Apps para ningún propósito ilegal o no autorizado.
+            </p>
+            <h2>Propiedad Intelectual</h2>
+            <p>
+                Las Apps, incluyendo pero no limitado a su diseño, software y contenido, son propiedad de PEDRO HENRIQUE DA SILVA SAMPAIO y están protegidas por leyes de propiedad intelectual. No puede copiar, modificar, distribuir, vender o transferir ninguna parte de las Apps sin nuestro consentimiento previo por escrito.
+            </p>
+            <h2>Contenido del Usuario</h2>
+            <p>
+                Usted es el único responsable de cualquier contenido que transmita o cargue usando las Apps. Usted acepta que cualquier contenido trasmesso o cargado no infringirá los derechos de terceros, incluidos pero no limitados a derechos de propiedad intelectual y privacidad.
+            </p>
+            <h2>Almacenamiento de Contenido de la App</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO respektiert su privacidad. Al usar las Apps, usted acepta la recopilación y el uso de su información personal según lo descrito en nuestra Política de Privacidad.
+            </p>
+            <h2>Exención de Garantías</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO no ofrece garantías ni representaciones sobre la precisión, confiabilidad, integridad o actualidad del contenido o funcionalidad de las Apps. Las Apps se proporcionan "tal cual" sin ninguna garantía, expresse o implícita.
+            </p>
+            <h2>Limitación de Responsabilidad</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO no será responsable de ningún daño de ningún tipo que surja del uso de las Apps, incluido pero no limitado a daños directos, indiretos, incidentales, punitivos y consecuentes.
+            </p>
+            <h2>Indemnización</h2>
+            <p>
+                Usted acepta indemnizar y eximir de responsabilidad a PEDRO HENRIQUE DA SILVA SAMPAIO, sus afiliados, directores, agentes y empleados de tualquier reclamo, demanda o daño, incluido redelible honorarios de abogado, que surjan de su uso de las Apps o su violación de este Acuerdo.
+            </p>
+            <h2>Terminación</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO puede rescindir este Acuerdo en cualquier momento sin previo aviso. Tras la terminación, debe cesar inmediatamente todo uso de las Apps.
+            </p>
+            <h2>Ley Aplicable</h2>
+            <p>
+                Este Acuerdo se regirá e interpretará de acuerdo con las leyes de Brasil, sin dar efecto a ningún principio de conflicto de leyes.
+            </p>
+            <h2>Acordo Completo</h2>
+            <p>
+                Este Acordo constituye el acuerdo completo entre usted y PEDRO HENRIQUE DA SILVA SAMPAIO en relación con las Apps y reemplaza todas las comunicaciones y propostas anteriores o contemporáneas, orales o escritas, entre usted y PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Contáctenos</h2>
+            <p>
+                Si tiene alguna pregunta sobre estos Términos de Uso, contáctenos en <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="terms-of-use-de" class="section" lang="de" style="display:none;">
+            <h1>Nutzungsbedingungen</h1>
+            <p>v1.0 | 2. März 2023</p>
+            <h2>Einleitung</h2>
+            <p>
+                Willkommen bei PEDRO HENRIQUE DA SILVA SAMPAIO. Durch die Nutzung unserer TV-Fernbedienungs-Apps ("Apps") stimmen Sie den folgenden Nutzungsbedingungen („Vereinbarung") zu.<br>
+                Durch die Nutzung unserer Apps erklären Sie sich mit den Bedingungen dieser Vereinbarung einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie unsere Apps bitte nicht.
+            </p>
+            <h2>Nutzung der Apps</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO gewährt Ihnen eine nicht-exklusive, nicht überdraagbare, eingeschränkte Lizenz zur Nutzung der Apps für persönliche und nicht-kommerzielle Zwecke. Sie dürfen die Apps nicht für illegale oder nich autorisierte Zwecke verwenden.
+            </p>
+            <h2>Geistiges Eigentum</h2>
+            <p>
+                Die Apps, einschließlich, aber nicht beschränkt auf Design, Software und Inhalt, sind Eigentum von PEDRO HENRIQUE DA SILVA SAMPAIO und durch Urheberrechte geschützt. Sie dürfen keinen Teil der Apps ohne unsere vorherige schriftliche Zustimmung kopieren, modifizieren, verbreiten, verkaufen oder übertragen.
+            </p>
+            <h2>Benutzerinhalte</h2>
+            <p>
+                Sie sind allein verantwortlich für alle Inhalte, die Sie über die Apps übertragen oder hochladen. Sie erklären sich damit einverstanden, dass alle von Ihnen übertragenen oder hochgeladenen Inhalte keine Rechte Dritter, einschließlich, aber nicht beschränkt auf Urheberrechte und Datenschutzrechte, verletzen.
+            </p>
+            <h2>Speicherung von App-Inhalten</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO respektiert Ihre Privatsphäre. Durch die Nutzung der Apps stimmen Sie der Erhebung und Nutzung Ihrer personenbezogenen Daten gemäß unserer Datenschutzrichtlinie zu.
+            </p>
+            <h2>Haftungsausschluss</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO übernimmt keine Gewähr für die Genauigkeit, Zuverlässigkeit, Vollständigkeit oder Aktualität der Inhalte oder Funktionen der Apps. Die Apps werden "wie besehen" ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt.
+            </p>
+            <h2>Haftungsbeschränkung</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO haftet nicht für Schäden jeglicher Art, die sich aus der Nutzung der Apps ergeben, einschließlich, aber nicht beschränkt auf direkte, indirekte, incidentele, punitieve und Folgeschäden.
+            </p>
+            <h2>Freistellung</h2>
+            <p>
+                Sie erklären sich damit einverstanden, PEDRO HENRIQUE DA SILVA SAMPAIO, seine verbundenen Unternehmen, leitenden Angestellten, Vertreter und Mitarbeiter von allen Ansprüchen, Forderungen oder Schäden, einschließlich angemessener Anwaltskosten, die sich aus Ihrer Nutzung der Apps oder Ihrem Verstoß gegen diese Vereinbarung ergeben, schadlos zu halten.
+            </p>
+            <h2>Kündigung</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO kann diese Vereinbarung jederzeit ohne Vorankündigung kündigen. Nach der Kündigung müssen Sie die Nutzung der Apps sofort einstellen.
+            </p>
+            <h2>Anwendbares Recht</h2>
+            <p>
+                Diese Vereinbarung unterliegt den Gesetzen Brasiliens und ist entsprechend auszulegen, ohne Rücksicht auf kollisionsrechtliche Grundsätze.
+            </p>
+            <h2>Gesamtvereinbarung</h2>
+            <p>
+                Diese Vereinbarung stellt die gesamte Vereinbarung zwischen Ihnen und PEDRO HENRIQUE DA SILVA SAMPAIO in Bezug auf die Apps dar und ersetzt alle eerderen oder gleichzeitigen mündlichen oder schriftlichen Mitteilungen und Vorschläge zwischen Ihnen und PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Kontakt</h2>
+            <p>
+                Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="terms-of-use-it" class="section" lang="it" style="display:none;">
+            <h1>Termini di Utilizzo</h1>
+            <p>v1.0 | 2 marzo 2023</p>
+            <h2>Introduzione</h2>
+            <p>
+                Benvenuto su PEDRO HENRIQUE DA SILVA SAMPAIO. Utilizzando le nostre app telecomando TV ("App"), accetti i seguenti Termini di Utilizzo ("Accordo").<br>
+                Utilizzando le nostre App, accetti di essere vincolato dai termini e dalle condizioni di questo Accordo. Se non sei d'accordo con questi termini e condizioni, ti preghiamo di non utilizzare le nostre App.
+            </p>
+            <h2>Utilizzo delle App</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO ti concede una licenza non esclusiva, non trasferibile e limitata per utilizzare le App per uso personale e non commerciale. Non puoi utilizzare le App per scopi illegali o non autorizzati.
+            </p>
+            <h2>Proprietà Intellettuale</h2>
+            <p>
+                Le App, incluso ma non limitato a design, software e contenuti, sono di proprietà di PEDRO HENRIQUE DA SILVA SAMPAIO e sono protette dalle leggi sulla proprietà intellettuale. Non puoi copiare, modificare, distribuire, vendere o trasferire alcuna parte delle App senza il nostro previo consenso scritto.
+            </p>
+            <h2>Contenuti dell'Utente</h2>
+            <p>
+                Sei l'unico responsabile di qualsiasi contenuto che trasmetti o carichi utilizzando le App. Accetti che qualsiasi contenuto trasmesso o caricato non violerà i diritti di terzi, inclusi ma non limitati a diritti di proprietà intellettuale e privacy.
+            </p>
+            <h2>Archiviazione dei Contenuti dell'App</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO rispetta la tua privacy. Utilizzando le App, acconsenti alla raccolta e all'uso delle tue informazioni personali come descritto nella nostra Informativa sulla Privacy.
+            </p>
+            <h2>Esclusione di Garanzie</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO non fornisce alcuna garanzia circa l'accuratezza, l'affidabilità, la completezza o la tempestività dei contenuti o delle funzionalità delle App. Le App sono fornite "così come sono" senza alcuna garanzia, espressa o implicita.
+            </p>
+            <h2>Limitazione di Responsabilità</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO non sarà responsabile per eventuali danni di qualsiasi tipo derivanti dall'uso delle App, inclusi ma non limitati a danni diretti, indiretti, incidentali, punitivi e consequenziali.
+            </p>
+            <h2>Indennizzo</h2>
+            <p>
+                Accetti di indennizzare e tenere indenne PEDRO HENRIQUE DA SILVA SAMPAIO, le sue affiliate, dirigenti, agenti e dipendenti da qualsiasi reclamo, richiesta o danno, incluse le ragionevoli spese legali, derivanti dall'uso delle App o dalla violazione di questo Accordo.
+            </p>
+            <h2>Risoluzione</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO può risolvere questo Accordo in qualsiasi momento senza preavviso. Alla risoluzione, devi cessare immediatamente ogni utilizzo delle App.
+            </p>
+            <h2>Legge Applicabile</h2>
+            <p>
+                Questo Accordo sarà regolato e interpretato in conformità con le leggi del Brasile, senza tener conto di alcun principio di conflitto di leggi.
+            </p>
+            <h2>Accordo Integrale</h2>
+            <p>
+                Questo Accordo costituisce l'intero accordo tra te e PEDRO HENRIQUE DA SILVA SAMPAIO in relazione alle App e sostituisce tutte le comunicazioni e proposte precedenti o contemporanee, orali o scritte, tra te e PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Contattaci</h2>
+            <p>
+                Se hai domande su questi Termini di Utilizzo, contattaci a <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="terms-of-use-nl" class="section" lang="nl" style="display:none;">
+            <h1>Gebruiksvoorwaarden</h1>
+            <p>v1.0 | 2 maart 2023</p>
+            <h2>Inleiding</h2>
+            <p>
+                Welkom bij PEDRO HENRIQUE DA SILVA SAMPAIO. Door onze tv-afstandsbedieningsapps ("Apps") te gebruiken, gaat u akkoord met de volgende Gebruiksvoorwaarden ("Overeenkomst").<br>
+                Door onze Apps te gebruiken, gaat u akkoord met de voorwaarden van deze Overeenkomst. Als u niet akkoord gaat met deze voorwaarden, gebruik onze Apps dan niet.
+            </p>
+            <h2>Gebruik van de Apps</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO verleent u een niet-exclusieve, niet-overdraagbare, beperkte licentie om de Apps te gebruiken voor persoonlijk en niet-commercieel gebruik. U mag de Apps niet gebruiken voor illegale of niet-geautoriseerde doeleinden.
+            </p>
+            <h2>Intellectueel Eigendom</h2>
+            <p>
+                De Apps, inclusief maar niet beperkt tot het ontwerp, de software en de inhoud, zijn eigendom van PEDRO HENRIQUE DA SILVA SAMPAIO en zijn beschermd door intellectuele eigendomsrechten. U mag geen enkel deel van de Apps kopiëren, wijzigen, distribueren, verkopen of overdragen zonder onze voorafgaande schriftelijke toestemming.
+            </p>
+            <h2>Gebruikersinhoud</h2>
+            <p>
+                U bent als enige verantwoordelijk voor alle inhoud die u via de Apps verzendt of uploadt. U stemt ermee in dat alle inhoud die u verzendt of uploadt geen inbreuk maakt op de rechten van derden, waaronder maar niet beperkt tot intellectuele eigendomsrechten en privacyrechten.
+            </p>
+            <h2>Opslag van App-inhoud</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO respecteert uw privacy. Door de Apps te gebruiken, stemt u in met het verzamelen en gebruiken van uw persoonlijke gegevens zoals beschreven in ons Privacybeleid.
+            </p>
+            <h2>Afwijzing van Garanties</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO geeft geen garanties of verklaringen over de nauwkeurigheid, betrouwbaarheid, volledigheid of actualiteit van de inhoud of functionaliteit van de Apps. De Apps worden geleverd "zoals ze zijn" zonder enige garantie, expliciet of impliciet.
+            </p>
+            <h2>Beperking van Aansprakelijkheid</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO is niet aansprakelijk voor enige schade van welke aard dan ook die voortvloeit uit het gebruik van de Apps, inclusief maar niet beperkt tot directe, indirecte, incidentele, punitieve en gevolgschade.
+            </p>
+            <h2>Schadeloosstelling</h2>
+            <p>
+                U stemt ermee in PEDRO HENRIQUE DA SILVA SAMPAIO, zijn gelieerde ondernemingen, functionarissen, agenten en werknemers te vrijwaren van alle claims, eisen of schade, inclusief redelijke advocatenhonoraria, die voortvloeien uit uw gebruik van de Apps of uw schending van deze Overeenkomst.
+            </p>
+            <h2>Beëindiging</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO kan deze Overeenkomst op elk moment zonder kennisgeving beëindigen. Na beëindiging moet u onmiddellijk stoppen met het gebruik van de Apps.
+            </p>
+            <h2>Toepasselijk Recht</h2>
+            <p>
+                Deze Overeenkomst wordt beheerst door en geïnterpreteerd in overeenstemming met de wetten van Brazilië, zonder rekening te houden met enige beginselen van conflicterende wetten.
+            </p>
+            <h2>Volledige Overeenkomst</h2>
+            <p>
+                Deze Overeenkomst vormt de volledige overeenkomst tussen u en PEDRO HENRIQUE DA SILVA SAMPAIO met betrekking tot de Apps en vervangt alle eerdere of gelijktijdige communicatie en voorstellen, mondeling of schriftelijk, tussen u en PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Contact</h2>
+            <p>
+                Als u vragen heeft over deze Gebruiksvoorwaarden, neem dan contact met ons op via <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="terms-of-use-ru" class="section" lang="ru" style="display:none;">
+            <h1>Условия использования</h1>
+            <p>v1.0 | 2 марта 2023 г.</p>
+            <h2>Введение</h2>
+            <p>
+                Добро пожаловать в PEDRO HENRIQUE DA SILVA SAMPAIO. Используя наши приложения для дистанционного управления телевизором («Приложения»), вы соглашаетесь с настоящими Условиями использования («Соглашение»).<br>
+                Используя наши Приложения, вы соглашаетесь соблюдать условия этого Соглашения. Если вы не согласны с этими условиями, пожалуйста, не используйте наши Приложения.
+            </p>
+            <h2>Использование Приложений</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO предоставляет вам неисключительную, непередаваемую, ограниченную лицензию на использование Приложений для личного и некоммерческого использования. Вы не можете использовать Приложения для каких-либо незаконных или несанкционированных целей.
+            </p>
+            <h2>Интеллектуальная собственность</h2>
+            <p>
+                Приложения, включая, помимо прочего, их дизайн, программное обеспечение и контент, являются собственностью PEDRO HENRIQUE DA SILVA SAMPAIO и защищены законами об интеллектуальной собственности. Вы не можете копировать, изменять, распространять, продавать или передавать любую часть Приложений без нашего предварительного письменного согласия.
+            </p>
+            <h2>Контент пользователя</h2>
+            <p>
+                Вы несете полную ответственность за любой контент, который вы передаете или загружаете с помощью Приложений. Вы соглашаетесь с тем, что любой передаваемый или загружаемый вами контент не будет нарушать права третьих лиц, включая, помимо прочего, права интеллектуальной собственности и права на неприкосновенность частной жизни.
+            </p>
+            <h2>Хранение контента приложения</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO уважает вашу конфиденциальность. Используя Приложения, вы соглашаетесь с сбором и использованием вашей личной информации, как указано в нашей Политике конфиденциальности.
+            </p>
+            <h2>Отказ от гарантий</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO не дает никаких гарантий или заверений относительно точности, надежности, полноты или актуальности содержания или функциональности Приложений. Приложения предоставляются «как есть» без каких-либо гарантий, явных или подразумеваемых.
+            </p>
+            <h2>Ограничение ответственности</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO не несет ответственности за любые убытки любого рода, возникшие в результате использования Приложений, включая, помимо прочего, прямые, косвенные, случайные, штрафные и косвенные убытки.
+            </p>
+            <h2>Возмещение убытков</h2>
+            <p>
+                Вы соглашаетесь возместить и обезопасить PEDRO HENRIQUE DA SILVA SAMPAIO, его аффилированных лиц, должностных лиц, агентов и сотрудников от любых претензий, требований или убытков, включая разумные гонорары адвокатов, возникших в результате использования вами Приложений или нарушения вами настоящего Соглашения.
+            </p>
+            <h2>Прекращение</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO может прекратить действие настоящего Соглашения в любое время без предварительного уведомления. После прекращения вы должны немедленно прекратить использование Приложений.
+            </p>
+            <h2>Применимое право</h2>
+            <p>
+                Настоящее Соглашение регулируется и толкуется в соответствии с законодательством Бразилии без учета каких-либо принципов коллизионного права.
+            </p>
+            <h2>Полное соглашение</h2>
+            <p>
+                Настоящее Соглашение составляет полное соглашение между вами и PEDRO HENRIQUE DA SILVA SAMPAIO в отношении Приложений и заменяет все предыдущие или одновременные устные или письменные сообщения и предложения между вами и PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>Связаться с нами</h2>
+            <p>
+                Если у вас есть вопросы по поводу этих Условий использования, свяжитесь с нами по адресу <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
+        <section id="terms-of-use-zh" class="section" lang="zh" style="display:none;">
+            <h1>使用条款</h1>
+            <p>v1.0 | 2023年3月2日</p>
+            <h2>简介</h2>
+            <p>
+                欢迎使用 PEDRO HENRIQUE DA SILVA SAMPAIO。使用我们的电视遥控应用程序（"应用"）即表示您同意以下使用条款（"协议"）。<br>
+                使用我们的应用即表示您同意受本协议条款和条件的约束。如果您不同意这些条款和条件，请不要使用我们的应用。
+            </p>
+            <h2>应用的使用</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO 授予您非独占、不可转让、有限的许可，仅将应用用于个人和非商业用途。您不得将应用用于任何非法或未经授权的目的。
+            </p>
+            <h2>知识产权</h2>
+            <p>
+                应用，包括但不限于其设计、软件和内容，均为 PEDRO HENRIQUE DA SILVA SAMPAIO 的财产，并受知识产权法保护。未经我们事先书面同意，您不得复制、修改、分发、出售或转让应用的任何部分。
+            </p>
+            <h2>用户内容</h2>
+            <p>
+                您对通过应用传输或上传的任何内容负全部责任。您同意，您传输或上传的任何内容不会侵犯任何第三方的权利，包括但不限于知识产权和隐私权。
+            </p>
+            <h2>应用内容存储</h2>
+            <p>
+                PEDRO HENRIQUE DA SILVA SAMPAIO 尊重您的隐私。我们不会在应用内容存储中收集或存储任何个人信息。
+            </p>
+            <h2>我们自动收集的信息</h2>
+            <p>我们可能会收集有关您的移动设备的信息，包括其型号、操作系统类型和版本、唯一标识符、语言、移动网络信息以及您访问服务时的IP地址。此信息仅用于确保应用的正常运行。</p>
+            <h2>客户支持</h2>
+            <p>当您请求客户支持时，我们会要求您提供电子邮件地址和其他联系信息，以便我们回复您的反馈。我们还可能收集与您的支持请求相关的信息，以帮助我们解决您的问题。您可以通过以下方式直接联系我们：<a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>。</p>
+            <h2>第三方服务</h2>
+            <p>应用的某些功能可能涉及第三方服务。请注意，我们不对这些第三方服务的隐私做法负责，您应单独查阅其隐私政策。</p>
+            <h2>隐私政策的变更</h2>
+            <p>我们保留随时更新或修改本隐私政策的权利。您在本隐私政策变更或修订后继续使用应用，即表示您同意修订后的政策条款。我们建议您定期查阅本隐私政策以获取任何更新或更改。</p>
+            <h2>联系我们</h2>
+            <p>如果您对本隐私政策或我们的做法有任何疑问，可以通过以下方式联系我们：<a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>。</p>
+            <p>最后更新于2023年3月2日。<br>我们非常重视用户的隐私，并致力于保护您的个人信息。感谢您使用我们的应用。</p>
+        </section>
+        <section id="terms-of-use-ar" class="section" lang="ar" style="display:none; direction:rtl;">
+            <h1>شروط الاستخدام</h1>
+            <p>الإصدار 1.0 | 2 مارس 2023</p>
+            <h2>مقدمة</h2>
+            <p>
+                مرحبًا بك في PEDRO HENRIQUE DA SILVA SAMPAIO. باستخدامك لتطبيقات التحكم عن بعد في التلفزيون الخاصة بنا ("التطبيقات")، فإنك توافق على شروط الاستخدام التالية ("الاتفاقية").<br>
+                باستخدامك لتطبيقاتنا، فإنك توافق على الالتزام ببنود وشروط هذه الاتفاقية. إذا كنت لا توافق على هذه الشروط والأحكام، يرجى عدم استخدام تطبيقاتنا.
+            </p>
+            <h2>استخدام التطبيقات</h2>
+            <p>
+                تمنحك PEDRO HENRIQUE DA SILVA SAMPAIO ترخيصًا غير حصري وغير قابل للتحويل ومحدودًا لاستخدام التطبيقات للاستخدام الشخصي وغير التجاري فقط. لا يجوز لك استخدام التطبيقات لأي غرض غير قانوني أو غير مصرح به.
+            </p>
+            <h2>الملكية الفكرية</h2>
+            <p>
+                التطبيقات، بما في ذلك على سبيل المثال لا الحصر التصميم والبرمجيات والمحتوى، هي ملك لـ PEDRO HENRIQUE DA SILVA SAMPAIO ومحميّة بموجب قوانين الملكية الفكرية. لا يجوز لك نسخ أو تعديل أو توزيع أو بيع أو نقل أي جزء من التطبيقات دون موافقتنا الخطية المسبقة.
+            </p>
+            <h2>محتوى المستخدم</h2>
+            <p>
+                أنت وحدك المسؤول عن أي محتوى تقوم بنقله أو تحميله باستخدام التطبيقات. أنت توافق على أن أي محتوى تقوم بنقله أو تحميله لن ينتهك حقوق أي طرف ثالث، بما في ذلك على سبيل المثال لا الحصر حقوق الملكية الفكرية وحقوق الخصوصية.
+            </p>
+            <h2>تخزين محتوى التطبيق</h2>
+            <p>
+                تحترم PEDRO HENRIQUE DA SILVA SAMPAIO خصوصيتك. باستخدام التطبيقات، فإنك توافق على جمع واستخدام معلوماتك الشخصية كما هو موضح في سياسة الخصوصية الخاصة بنا.
+            </p>
+            <h2>إخلاء المسؤولية عن الضمانات</h2>
+            <p>
+                لا تقدم PEDRO HENRIQUE DA SILVA SAMPAIO أي ضمانات أو تعهدات بشأن دقة أو موثوقية أو اكتمال أو حداثة محتوى أو وظائف التطبيقات. يتم توفير التطبيقات "كما هي" دون أي ضمانات أو تعهدات من أي نوع، سواء كانت صريحة أو ضمنية.
+            </p>
+            <h2>تحديد المسؤولية</h2>
+            <p>
+                لن تكون PEDRO HENRIQUE DA SILVA SAMPAIO مسؤولة عن أي أضرار من أي نوع تنشأ عن استخدام التطبيقات، بما في ذلك على سبيل المثال لا الحصر الأضرار المباشرة أو غير المباشرة أو العرضية أو العقابية أو التبعية.
+            </p>
+            <h2>التعويض</h2>
+            <p>
+                أنت توافق على تعويض PEDRO HENRIQUE DA SILVA SAMPAIO والشركات التابعة لها والمسؤولين والوكلاء والموظفين وإبراء ذمتهم من أي مطالبات أو مطالب أو أضرار، بما في ذلك أتعاب المحاماة المعقولة، الناشئة عن استخدامك للتطبيقات أو انتهاكك لهذه الاتفاقية.
+            </p>
+            <h2>الإنهاء</h2>
+            <p>
+                يجوز لـ PEDRO HENRIQUE DA SILVA SAMPAIO إنهاء هذه الاتفاقية في أي وقت دون إشعار. عند الإنهاء، يجب عليك التوقف فورًا عن استخدام التطبيقات.
+            </p>
+            <h2>القانون الحاكم</h2>
+            <p>
+                تخضع هذه الاتفاقية وتفسر وفقًا لقوانين البرازيل، دون تفعيل أي مبادئ تتعلق بتعارض القوانين.
+            </p>
+            <h2>الاتفاقية الكاملة</h2>
+            <p>
+                تشكل هذه الاتفاقية الاتفاقية الكاملة بينك وبين PEDRO HENRIQUE DA SILVA SAMPAIO فيما يتعلق بالتطبيقات وتحل محل جميع الاتصالات والمقترحات السابقة أو المعاصرة، سواء كانت شفهية أو مكتوبة، بينك وبين PEDRO HENRIQUE DA SILVA SAMPAIO.
+            </p>
+            <h2>اتصل بنا</h2>
+            <p>
+                إذا كان لديك أي أسئلة حول شروط الاستخدام هذه، يرجى الاتصال بنا على <a href="mailto:sampaiotechcontact@gmail.com">sampaiotechcontact@gmail.com</a>.
+            </p>
+        </section>
 
         <p class="last-updated">Last updated: March 19, 2024</p>
     </div>
+
+    <script>
+    const privacySections = [
+        'privacy-policy-en',
+        'privacy-policy-pt',
+        'privacy-policy-es',
+        'privacy-policy-fr',
+        'privacy-policy-de',
+        'privacy-policy-it',
+        'privacy-policy-nl',
+        'privacy-policy-ru',
+        'privacy-policy-zh',
+        'privacy-policy-ar'
+    ];
+    const termsSections = [
+        'terms-of-use-en',
+        'terms-of-use-pt',
+        'terms-of-use-es',
+        'terms-of-use-de'
+    ];
+
+    function showLanguageSections(lang) {
+        privacySections.forEach(id => {
+            document.getElementById(id).style.display = id.endsWith(lang) ? '' : 'none';
+        });
+        termsSections.forEach(id => {
+            document.getElementById(id).style.display = id.endsWith(lang) ? '' : 'none';
+        });
+    }
+
+    document.getElementById('language-select').addEventListener('change', function() {
+        showLanguageSections(this.value);
+    });
+
+    // On page load, show only English
+    window.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('language-select').value = 'en';
+        showLanguageSections('en');
+    });
+    </script>
 </body>
 </html> 
