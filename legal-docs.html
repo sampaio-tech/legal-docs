@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter – Privacy Policy & Terms of Use</title>
+    <style>
+        :root {
+            --primary-color: #2D5AF0;
+            --secondary-color: #1E293B;
+            --text-color: #334155;
+            --background-color: #ffffff;
+            --section-background: #f8fafc;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 4rem 0;
+            background-color: var(--section-background);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(45, 90, 240, 0.1);
+        }
+
+        .section {
+            background-color: var(--section-background);
+            border-radius: 16px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin: 2rem 0 1rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+            color: var(--text-color);
+            font-size: 1.1rem;
+        }
+
+        a {
+            color: var(--primary-color);
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+            padding: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            header {
+                padding: 3rem 1rem;
+                margin-bottom: 2rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .section {
+                padding: 2rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p, li {
+                font-size: 1rem;
+            }
+        }
+
+        #language-select {
+            font-size: 1.15rem;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+            border-radius: 8px;
+            border: 1.5px solid #2D5AF0;
+            background: #f8fafc url('data:image/svg+xml;utf8,<svg fill=\'%232D5AF0\' height=\'20\' viewBox=\'0 0 20 20\' width=\'20\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M7 10l5 5 5-5H7z\'/></svg>') no-repeat right 0.7rem center/1.2rem 1.2rem;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            margin-left: 0.5rem;
+            min-width: 200px;
+            transition: border-color 0.2s;
+        }
+        #language-select:focus {
+            border-color: #1E293B;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy &amp; Terms of Use</h1>
+            <p style="color:#64748b; font-size:1.1rem; margin-top:0.5rem;">Currency Converter App</p>
+            <nav class="nav-links">
+                <a href="#" id="nav-privacy">Privacy Policy</a>
+                <a href="#" id="nav-terms">Terms of Use</a>
+            </nav>
+            <div style="margin-top:2rem;">
+                <label for="language-select" style="font-weight:600; font-size:1.2rem; font-family:'Segoe UI',Arial,sans-serif;">🌐 Language:</label>
+                <select id="language-select">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="pt">🇧🇷 Português</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="it">🇮🇹 Italiano</option>
+                    <option value="nl">🇳🇱 Nederlands</option>
+                    <option value="ru">🇷🇺 Русский</option>
+                    <option value="zh">🇨🇳 中文</option>
+                    <option value="ar">🇸🇦 العربية</option>
+                </select>
+            </div>
+        </header>
+
+        <!-- ==================== PRIVACY POLICY ==================== -->
+
+        <!-- English -->
+        <section id="privacy-policy-en" class="section" lang="en">
+            <h2>Privacy Policy</h2>
+            <p>v1.0 | May 6, 2026</p>
+
+            <h3>Introduction</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains our practices regarding the Currency Converter mobile application ("App").</p>
+
+            <h3>No Data Collection</h3>
+            <p>We do not collect, store, process, or share any personal data or information of any kind. The App does not require you to create an account, log in, or provide any personal details to use it.</p>
+
+            <h3>What We Do Not Collect</h3>
+            <p>We do not collect:</p>
+            <ul>
+                <li>Personal identifiers (name, email address, phone number, etc.)</li>
+                <li>Location data</li>
+                <li>Device identifiers or fingerprints</li>
+                <li>Usage analytics or behavioral data</li>
+                <li>Financial information</li>
+                <li>Any other data that could identify you</li>
+            </ul>
+
+            <h3>Children's Privacy</h3>
+            <p>Since we do not collect any data, the App is safe for users of all ages. We do not knowingly collect personal information from anyone, including children.</p>
+
+            <h3>Third-Party Services</h3>
+            <p>The App may use publicly available exchange rate data from third-party providers to display currency conversions. We do not control those services and encourage you to review their own privacy policies. No personal information about you is sent to these providers by our App.</p>
+
+            <h3>Changes to This Privacy Policy</h3>
+            <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date. We encourage you to review this page periodically.</p>
+
+            <h3>Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Last updated: May 6, 2026</p>
+        </section>
+
+        <!-- Portuguese -->
+        <section id="privacy-policy-pt" class="section" lang="pt" style="display:none;">
+            <h2>Política de Privacidade</h2>
+            <p>v1.0 | 6 de maio de 2026</p>
+
+            <h3>Introdução</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ("nós") está comprometida com a proteção da sua privacidade. Esta Política de Privacidade explica nossas práticas em relação ao aplicativo móvel Currency Converter ("App").</p>
+
+            <h3>Nenhuma Coleta de Dados</h3>
+            <p>Não coletamos, armazenamos, processamos ou compartilhamos nenhum dado ou informação pessoal de qualquer tipo. O App não exige que você crie uma conta, faça login ou forneça qualquer informação pessoal para utilizá-lo.</p>
+
+            <h3>O Que Não Coletamos</h3>
+            <p>Não coletamos:</p>
+            <ul>
+                <li>Identificadores pessoais (nome, e-mail, telefone, etc.)</li>
+                <li>Dados de localização</li>
+                <li>Identificadores de dispositivo ou impressões digitais</li>
+                <li>Dados analíticos de uso ou comportamento</li>
+                <li>Informações financeiras</li>
+                <li>Quaisquer outros dados que possam identificá-lo</li>
+            </ul>
+
+            <h3>Privacidade das Crianças</h3>
+            <p>Como não coletamos nenhum dado, o App é seguro para usuários de todas as idades. Não coletamos intencionalmente informações pessoais de ninguém, incluindo crianças.</p>
+
+            <h3>Serviços de Terceiros</h3>
+            <p>O App pode usar dados de taxas de câmbio disponíveis publicamente de provedores terceiros para exibir conversões de moedas. Não controlamos esses serviços e incentivamos você a revisar suas próprias políticas de privacidade. Nenhuma informação pessoal sua é enviada a esses provedores pelo nosso App.</p>
+
+            <h3>Alterações nesta Política de Privacidade</h3>
+            <p>Podemos atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão refletidas nesta página com uma data atualizada. Recomendamos que você revise esta página periodicamente.</p>
+
+            <h3>Fale Conosco</h3>
+            <p>Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Última atualização: 6 de maio de 2026</p>
+        </section>
+
+        <!-- Spanish -->
+        <section id="privacy-policy-es" class="section" lang="es" style="display:none;">
+            <h2>Política de Privacidad</h2>
+            <p>v1.0 | 6 de mayo de 2026</p>
+
+            <h3>Introducción</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ("nosotros") se compromete a proteger su privacidad. Esta Política de Privacidad explica nuestras prácticas en relación con la aplicación móvil Currency Converter ("App").</p>
+
+            <h3>Sin Recopilación de Datos</h3>
+            <p>No recopilamos, almacenamos, procesamos ni compartimos ningún dato o información personal de ningún tipo. La App no requiere que cree una cuenta, inicie sesión ni proporcione ningún dato personal para usarla.</p>
+
+            <h3>Lo Que No Recopilamos</h3>
+            <p>No recopilamos:</p>
+            <ul>
+                <li>Identificadores personales (nombre, correo electrónico, teléfono, etc.)</li>
+                <li>Datos de ubicación</li>
+                <li>Identificadores de dispositivo o huellas digitales</li>
+                <li>Análisis de uso o datos de comportamiento</li>
+                <li>Información financiera</li>
+                <li>Cualquier otro dato que pueda identificarlo</li>
+            </ul>
+
+            <h3>Privacidad de los Menores</h3>
+            <p>Dado que no recopilamos ningún dato, la App es segura para usuarios de todas las edades. No recopilamos intencionadamente información personal de nadie, incluidos los menores.</p>
+
+            <h3>Servicios de Terceros</h3>
+            <p>La App puede utilizar datos de tipos de cambio disponibles públicamente de proveedores externos para mostrar conversiones de divisas. No controlamos esos servicios y le recomendamos que revise sus propias políticas de privacidad. Nuestra App no envía ninguna información personal suya a esos proveedores.</p>
+
+            <h3>Cambios en Esta Política de Privacidad</h3>
+            <p>Podemos actualizar esta Política de Privacidad periódicamente. Cualquier cambio se reflejará en esta página con una fecha actualizada. Le recomendamos que revise esta página periódicamente.</p>
+
+            <h3>Contáctenos</h3>
+            <p>Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos en: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Última actualización: 6 de mayo de 2026</p>
+        </section>
+
+        <!-- French -->
+        <section id="privacy-policy-fr" class="section" lang="fr" style="display:none;">
+            <h2>Politique de Confidentialité</h2>
+            <p>v1.0 | 6 mai 2026</p>
+
+            <h3>Introduction</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ("nous") s'engage à protéger votre vie privée. Cette Politique de Confidentialité explique nos pratiques concernant l'application mobile Currency Converter ("App").</p>
+
+            <h3>Aucune Collecte de Données</h3>
+            <p>Nous ne collectons, ne stockons, ne traitons ni ne partageons aucune donnée ou information personnelle de quelque nature que ce soit. L'App ne vous demande pas de créer un compte, de vous connecter ou de fournir des informations personnelles pour l'utiliser.</p>
+
+            <h3>Ce Que Nous Ne Collectons Pas</h3>
+            <p>Nous ne collectons pas :</p>
+            <ul>
+                <li>Identifiants personnels (nom, adresse e-mail, numéro de téléphone, etc.)</li>
+                <li>Données de localisation</li>
+                <li>Identifiants d'appareil ou empreintes numériques</li>
+                <li>Données analytiques d'utilisation ou de comportement</li>
+                <li>Informations financières</li>
+                <li>Toute autre donnée permettant de vous identifier</li>
+            </ul>
+
+            <h3>Confidentialité des Enfants</h3>
+            <p>Étant donné que nous ne collectons aucune donnée, l'App est sûre pour les utilisateurs de tout âge. Nous ne collectons pas sciemment d'informations personnelles auprès de qui que ce soit, y compris des enfants.</p>
+
+            <h3>Services Tiers</h3>
+            <p>L'App peut utiliser des données de taux de change disponibles publiquement provenant de fournisseurs tiers pour afficher les conversions de devises. Nous ne contrôlons pas ces services et vous encourageons à consulter leurs propres politiques de confidentialité. Notre App n'envoie aucune information personnelle vous concernant à ces fournisseurs.</p>
+
+            <h3>Modifications de Cette Politique de Confidentialité</h3>
+            <p>Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre. Toute modification sera reflétée sur cette page avec une date mise à jour. Nous vous encourageons à consulter cette page régulièrement.</p>
+
+            <h3>Nous Contacter</h3>
+            <p>Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à : <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Dernière mise à jour : 6 mai 2026</p>
+        </section>
+
+        <!-- German -->
+        <section id="privacy-policy-de" class="section" lang="de" style="display:none;">
+            <h2>Datenschutzrichtlinie</h2>
+            <p>v1.0 | 6. Mai 2026</p>
+
+            <h3>Einleitung</h3>
+            <p>ANA SARA DA SILVA SAMPAIO („wir") ist dem Schutz Ihrer Privatsphäre verpflichtet. Diese Datenschutzrichtlinie erläutert unsere Praktiken in Bezug auf die mobile App Currency Converter („App").</p>
+
+            <h3>Keine Datenerfassung</h3>
+            <p>Wir erfassen, speichern, verarbeiten oder teilen keinerlei personenbezogene Daten oder Informationen. Die App erfordert keine Kontoerstellung, kein Login und keine persönlichen Angaben zur Nutzung.</p>
+
+            <h3>Was Wir Nicht Erfassen</h3>
+            <p>Wir erfassen nicht:</p>
+            <ul>
+                <li>Persönliche Identifikatoren (Name, E-Mail-Adresse, Telefonnummer usw.)</li>
+                <li>Standortdaten</li>
+                <li>Geräteidentifikatoren oder digitale Fingerabdrücke</li>
+                <li>Nutzungsanalysen oder Verhaltensdaten</li>
+                <li>Finanzinformationen</li>
+                <li>Andere Daten, die Sie identifizieren könnten</li>
+            </ul>
+
+            <h3>Datenschutz für Kinder</h3>
+            <p>Da wir keine Daten erfassen, ist die App für Nutzer jeden Alters sicher. Wir erfassen wissentlich keine personenbezogenen Daten von niemandem, einschließlich Kindern.</p>
+
+            <h3>Drittanbieterdienste</h3>
+            <p>Die App kann öffentlich verfügbare Wechselkursdaten von Drittanbietern nutzen, um Währungsumrechnungen anzuzeigen. Wir kontrollieren diese Dienste nicht und empfehlen Ihnen, deren eigene Datenschutzrichtlinien zu lesen. Unsere App sendet keine personenbezogenen Informationen über Sie an diese Anbieter.</p>
+
+            <h3>Änderungen an Dieser Datenschutzrichtlinie</h3>
+            <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Alle Änderungen werden auf dieser Seite mit einem aktualisierten Datum vermerkt. Wir empfehlen Ihnen, diese Seite regelmäßig zu überprüfen.</p>
+
+            <h3>Kontakt</h3>
+            <p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Zuletzt aktualisiert: 6. Mai 2026</p>
+        </section>
+
+        <!-- Italian -->
+        <section id="privacy-policy-it" class="section" lang="it" style="display:none;">
+            <h2>Informativa sulla Privacy</h2>
+            <p>v1.0 | 6 maggio 2026</p>
+
+            <h3>Introduzione</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ("noi") si impegna a proteggere la tua privacy. Questa Informativa sulla Privacy spiega le nostre pratiche relative all'applicazione mobile Currency Converter ("App").</p>
+
+            <h3>Nessuna Raccolta di Dati</h3>
+            <p>Non raccogliamo, archiviamo, elaboriamo né condividiamo alcun dato o informazione personale di alcun tipo. L'App non richiede la creazione di un account, l'accesso o la fornitura di dati personali per essere utilizzata.</p>
+
+            <h3>Cosa Non Raccogliamo</h3>
+            <p>Non raccogliamo:</p>
+            <ul>
+                <li>Identificatori personali (nome, indirizzo email, numero di telefono, ecc.)</li>
+                <li>Dati di localizzazione</li>
+                <li>Identificatori del dispositivo o impronte digitali</li>
+                <li>Dati analitici sull'utilizzo o sul comportamento</li>
+                <li>Informazioni finanziarie</li>
+                <li>Qualsiasi altro dato che potrebbe identificarti</li>
+            </ul>
+
+            <h3>Privacy dei Minori</h3>
+            <p>Poiché non raccogliamo alcun dato, l'App è sicura per utenti di tutte le età. Non raccogliamo consapevolmente informazioni personali da nessuno, compresi i minori.</p>
+
+            <h3>Servizi di Terze Parti</h3>
+            <p>L'App può utilizzare dati sui tassi di cambio disponibili pubblicamente da fornitori terzi per visualizzare le conversioni valutarie. Non controlliamo tali servizi e ti invitiamo a consultare le loro politiche sulla privacy. La nostra App non invia alcuna informazione personale su di te a questi fornitori.</p>
+
+            <h3>Modifiche a Questa Informativa sulla Privacy</h3>
+            <p>Potremmo aggiornare questa Informativa sulla Privacy periodicamente. Qualsiasi modifica sarà riportata in questa pagina con una data aggiornata. Ti invitiamo a consultare regolarmente questa pagina.</p>
+
+            <h3>Contattaci</h3>
+            <p>Se hai domande su questa Informativa sulla Privacy, contattaci all'indirizzo: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Ultimo aggiornamento: 6 maggio 2026</p>
+        </section>
+
+        <!-- Dutch -->
+        <section id="privacy-policy-nl" class="section" lang="nl" style="display:none;">
+            <h2>Privacybeleid</h2>
+            <p>v1.0 | 6 mei 2026</p>
+
+            <h3>Introductie</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ("wij") zet zich in voor de bescherming van uw privacy. Dit Privacybeleid legt onze praktijken uit met betrekking tot de mobiele app Currency Converter ("App").</p>
+
+            <h3>Geen Gegevensverzameling</h3>
+            <p>Wij verzamelen, bewaren, verwerken of delen geen persoonlijke gegevens of informatie van welke aard dan ook. De App vereist geen accountregistratie, inloggen of het verstrekken van persoonlijke gegevens om te gebruiken.</p>
+
+            <h3>Wat Wij Niet Verzamelen</h3>
+            <p>Wij verzamelen niet:</p>
+            <ul>
+                <li>Persoonlijke identificatoren (naam, e-mailadres, telefoonnummer, enz.)</li>
+                <li>Locatiegegevens</li>
+                <li>Apparaat-identificatoren of digitale vingerafdrukken</li>
+                <li>Gebruiksanalyses of gedragsgegevens</li>
+                <li>Financiële informatie</li>
+                <li>Andere gegevens waarmee u geïdentificeerd kunt worden</li>
+            </ul>
+
+            <h3>Privacy van Kinderen</h3>
+            <p>Omdat wij geen gegevens verzamelen, is de App veilig voor gebruikers van alle leeftijden. Wij verzamelen niet bewust persoonlijke informatie van wie dan ook, inclusief kinderen.</p>
+
+            <h3>Diensten van Derden</h3>
+            <p>De App kan openbaar beschikbare wisselkoersgegevens van externe aanbieders gebruiken om valutaconversies weer te geven. Wij controleren deze diensten niet en raden u aan hun eigen privacybeleid te lezen. Onze App stuurt geen persoonlijke informatie over u naar deze aanbieders.</p>
+
+            <h3>Wijzigingen in Dit Privacybeleid</h3>
+            <p>Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. Eventuele wijzigingen worden op deze pagina weergegeven met een bijgewerkte datum. Wij raden u aan deze pagina regelmatig te raadplegen.</p>
+
+            <h3>Neem Contact Op</h3>
+            <p>Als u vragen heeft over dit Privacybeleid, neem dan contact met ons op via: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Laatst bijgewerkt: 6 mei 2026</p>
+        </section>
+
+        <!-- Russian -->
+        <section id="privacy-policy-ru" class="section" lang="ru" style="display:none;">
+            <h2>Политика Конфиденциальности</h2>
+            <p>v1.0 | 6 мая 2026 г.</p>
+
+            <h3>Введение</h3>
+            <p>ANA SARA DA SILVA SAMPAIO («мы») стремится защищать вашу конфиденциальность. Настоящая Политика конфиденциальности объясняет наши практики в отношении мобильного приложения Currency Converter («Приложение»).</p>
+
+            <h3>Данные Не Собираются</h3>
+            <p>Мы не собираем, не храним, не обрабатываем и не передаём никакие персональные данные или информацию любого рода. Приложение не требует создания учётной записи, входа в систему или предоставления личных данных для использования.</p>
+
+            <h3>Что Мы Не Собираем</h3>
+            <p>Мы не собираем:</p>
+            <ul>
+                <li>Личные идентификаторы (имя, адрес электронной почты, номер телефона и т. д.)</li>
+                <li>Данные о местоположении</li>
+                <li>Идентификаторы устройства или цифровые отпечатки</li>
+                <li>Аналитику использования или поведенческие данные</li>
+                <li>Финансовую информацию</li>
+                <li>Любые другие данные, по которым вас можно идентифицировать</li>
+            </ul>
+
+            <h3>Конфиденциальность Детей</h3>
+            <p>Поскольку мы не собираем никаких данных, Приложение безопасно для пользователей всех возрастов. Мы намеренно не собираем личную информацию ни от кого, включая детей.</p>
+
+            <h3>Сторонние Сервисы</h3>
+            <p>Приложение может использовать общедоступные данные обменных курсов от сторонних поставщиков для отображения конвертации валют. Мы не контролируем эти сервисы и рекомендуем ознакомиться с их политиками конфиденциальности. Наше Приложение не передаёт никакой личной информации о вас этим поставщикам.</p>
+
+            <h3>Изменения в Настоящей Политике Конфиденциальности</h3>
+            <p>Мы можем периодически обновлять настоящую Политику конфиденциальности. Любые изменения будут отражены на этой странице с обновлённой датой. Мы рекомендуем периодически проверять эту страницу.</p>
+
+            <h3>Связаться с Нами</h3>
+            <p>Если у вас есть вопросы относительно настоящей Политики конфиденциальности, свяжитесь с нами по адресу: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Последнее обновление: 6 мая 2026 г.</p>
+        </section>
+
+        <!-- Chinese -->
+        <section id="privacy-policy-zh" class="section" lang="zh" style="display:none;">
+            <h2>隐私政策</h2>
+            <p>v1.0 | 2026年5月6日</p>
+
+            <h3>简介</h3>
+            <p>ANA SARA DA SILVA SAMPAIO（"我们"）致力于保护您的隐私。本隐私政策说明了我们在Currency Converter移动应用程序（"App"）方面的做法。</p>
+
+            <h3>不收集任何数据</h3>
+            <p>我们不收集、存储、处理或共享任何类型的个人数据或信息。使用本App无需创建账户、登录或提供任何个人信息。</p>
+
+            <h3>我们不收集的内容</h3>
+            <p>我们不收集：</p>
+            <ul>
+                <li>个人标识符（姓名、电子邮件地址、电话号码等）</li>
+                <li>位置数据</li>
+                <li>设备标识符或数字指纹</li>
+                <li>使用分析或行为数据</li>
+                <li>财务信息</li>
+                <li>任何其他可识别您身份的数据</li>
+            </ul>
+
+            <h3>儿童隐私</h3>
+            <p>由于我们不收集任何数据，本App对所有年龄段的用户均安全。我们不会故意收集任何人（包括儿童）的个人信息。</p>
+
+            <h3>第三方服务</h3>
+            <p>本App可能使用第三方提供商公开的汇率数据来显示货币换算。我们不控制这些服务，建议您查阅其各自的隐私政策。我们的App不会向这些提供商发送您的任何个人信息。</p>
+
+            <h3>本隐私政策的变更</h3>
+            <p>我们可能会不时更新本隐私政策。任何更改都将在本页面上以更新后的日期反映。我们建议您定期查看本页面。</p>
+
+            <h3>联系我们</h3>
+            <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：<a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>。</p>
+
+            <p>最后更新：2026年5月6日</p>
+        </section>
+
+        <!-- Arabic -->
+        <section id="privacy-policy-ar" class="section" lang="ar" dir="rtl" style="display:none;">
+            <h2>سياسة الخصوصية</h2>
+            <p>v1.0 | 6 مايو 2026</p>
+
+            <h3>مقدمة</h3>
+            <p>تلتزم ANA SARA DA SILVA SAMPAIO ("نحن") بحماية خصوصيتك. توضح سياسة الخصوصية هذه ممارساتنا المتعلقة بتطبيق الهاتف المحمول Currency Converter ("التطبيق").</p>
+
+            <h3>لا يوجد جمع للبيانات</h3>
+            <p>لا نجمع أو نخزن أو نعالج أو نشارك أي بيانات أو معلومات شخصية من أي نوع. لا يتطلب التطبيق إنشاء حساب أو تسجيل الدخول أو تقديم أي معلومات شخصية لاستخدامه.</p>
+
+            <h3>ما لا نجمعه</h3>
+            <p>نحن لا نجمع:</p>
+            <ul>
+                <li>المعرّفات الشخصية (الاسم وعنوان البريد الإلكتروني ورقم الهاتف وما إلى ذلك)</li>
+                <li>بيانات الموقع</li>
+                <li>معرّفات الجهاز أو البصمات الرقمية</li>
+                <li>تحليلات الاستخدام أو البيانات السلوكية</li>
+                <li>المعلومات المالية</li>
+                <li>أي بيانات أخرى يمكن أن تعرّفك</li>
+            </ul>
+
+            <h3>خصوصية الأطفال</h3>
+            <p>بما أننا لا نجمع أي بيانات، فإن التطبيق آمن للمستخدمين من جميع الأعمار. نحن لا نجمع عن قصد أي معلومات شخصية من أي شخص، بما في ذلك الأطفال.</p>
+
+            <h3>خدمات الأطراف الثالثة</h3>
+            <p>قد يستخدم التطبيق بيانات أسعار الصرف المتاحة للعموم من مزودين خارجيين لعرض تحويلات العملات. نحن لا نتحكم في هذه الخدمات ونشجعك على مراجعة سياسات الخصوصية الخاصة بهم. لا يرسل تطبيقنا أي معلومات شخصية تخصك إلى هؤلاء المزودين.</p>
+
+            <h3>التغييرات على سياسة الخصوصية هذه</h3>
+            <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سينعكس أي تغيير على هذه الصفحة بتاريخ محدّث. نشجعك على مراجعة هذه الصفحة بشكل دوري.</p>
+
+            <h3>اتصل بنا</h3>
+            <p>إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى التواصل معنا على: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>آخر تحديث: 6 مايو 2026</p>
+        </section>
+
+        <!-- ==================== TERMS OF USE ==================== -->
+
+        <!-- English -->
+        <section id="terms-of-use-en" class="section" lang="en" style="display:none;">
+            <h2>Terms of Use</h2>
+            <p>v1.0 | May 6, 2026</p>
+
+            <h3>Introduction</h3>
+            <p>Welcome to Currency Converter. By downloading or using this application ("App"), you agree to be bound by these Terms of Use ("Agreement"). If you do not agree with these terms, please do not use the App.</p>
+
+            <h3>App Usage</h3>
+            <p>ANA SARA DA SILVA SAMPAIO grants you a non-exclusive, non-transferable, limited license to use the App for personal, non-commercial purposes. You may not use the App for any illegal or unauthorized purpose. Currency exchange rates displayed in the App are provided for informational purposes only and may not reflect real-time market rates. We are not responsible for any financial decisions made based on the information provided by the App.</p>
+
+            <h3>Intellectual Property</h3>
+            <p>The App, including but not limited to its design, software, and content, is the property of ANA SARA DA SILVA SAMPAIO and is protected by intellectual property laws. You may not copy, modify, distribute, sell, or transfer any part of the App without our prior written consent.</p>
+
+            <h3>Disclaimer of Warranties</h3>
+            <p>The App is provided "as is" without any warranties, express or implied. We do not warrant that the App will be error-free, uninterrupted, or that the exchange rates displayed will be accurate or up to date. Use of the App is at your own risk.</p>
+
+            <h3>Limitation of Liability</h3>
+            <p>ANA SARA DA SILVA SAMPAIO shall not be liable for any damages of any kind arising from the use of the App, including but not limited to direct, indirect, incidental, punitive, and consequential damages.</p>
+
+            <h3>Indemnification</h3>
+            <p>You agree to indemnify and hold harmless ANA SARA DA SILVA SAMPAIO, its affiliates, officers, agents, and employees from any claims, demands, or damages, including reasonable attorneys' fees, arising from your use of the App or your breach of this Agreement.</p>
+
+            <h3>Termination</h3>
+            <p>ANA SARA DA SILVA SAMPAIO may terminate this Agreement at any time without notice. Upon termination, you must immediately cease all use of the App.</p>
+
+            <h3>Governing Law</h3>
+            <p>This Agreement shall be governed by and construed in accordance with the laws of Brazil, without regard to conflict of law principles.</p>
+
+            <h3>Entire Agreement</h3>
+            <p>This Agreement constitutes the entire agreement between you and ANA SARA DA SILVA SAMPAIO regarding the use of the App and supersedes all prior agreements.</p>
+
+            <h3>Contact Us</h3>
+            <p>If you have any questions about these Terms of Use, please contact us at: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Last updated: May 6, 2026</p>
+        </section>
+
+        <!-- Portuguese -->
+        <section id="terms-of-use-pt" class="section" lang="pt" style="display:none;">
+            <h2>Termos de Uso</h2>
+            <p>v1.0 | 6 de maio de 2026</p>
+
+            <h3>Introdução</h3>
+            <p>Bem-vindo ao Currency Converter. Ao baixar ou usar este aplicativo ("App"), você concorda em estar vinculado a estes Termos de Uso ("Acordo"). Se você não concordar com estes termos, por favor, não use o App.</p>
+
+            <h3>Uso do App</h3>
+            <p>ANA SARA DA SILVA SAMPAIO concede a você uma licença não exclusiva, intransferível e limitada para usar o App para fins pessoais e não comerciais. Você não pode usar o App para qualquer finalidade ilegal ou não autorizada. As taxas de câmbio exibidas no App são fornecidas apenas para fins informativos e podem não refletir as taxas de mercado em tempo real. Não somos responsáveis por quaisquer decisões financeiras tomadas com base nas informações fornecidas pelo App.</p>
+
+            <h3>Propriedade Intelectual</h3>
+            <p>O App, incluindo mas não se limitando ao seu design, software e conteúdo, é propriedade de ANA SARA DA SILVA SAMPAIO e está protegido pelas leis de propriedade intelectual. Você não pode copiar, modificar, distribuir, vender ou transferir qualquer parte do App sem nosso consentimento prévio por escrito.</p>
+
+            <h3>Isenção de Garantias</h3>
+            <p>O App é fornecido "no estado em que se encontra", sem quaisquer garantias, expressas ou implícitas. Não garantimos que o App estará isento de erros, ininterrupto, ou que as taxas de câmbio exibidas serão precisas ou atualizadas. O uso do App é por sua conta e risco.</p>
+
+            <h3>Limitação de Responsabilidade</h3>
+            <p>ANA SARA DA SILVA SAMPAIO não será responsável por quaisquer danos de qualquer natureza decorrentes do uso do App, incluindo mas não se limitando a danos diretos, indiretos, incidentais, punitivos e consequenciais.</p>
+
+            <h3>Indenização</h3>
+            <p>Você concorda em indenizar e isentar de responsabilidade ANA SARA DA SILVA SAMPAIO, seus afiliados, diretores, agentes e funcionários de quaisquer reclamações, demandas ou danos, incluindo honorários advocatícios razoáveis, decorrentes do seu uso do App ou violação deste Acordo.</p>
+
+            <h3>Rescisão</h3>
+            <p>ANA SARA DA SILVA SAMPAIO pode rescindir este Acordo a qualquer momento sem aviso prévio. Após a rescisão, você deve cessar imediatamente todo o uso do App.</p>
+
+            <h3>Lei Aplicável</h3>
+            <p>Este Acordo será regido e interpretado de acordo com as leis do Brasil, sem considerar princípios de conflito de leis.</p>
+
+            <h3>Acordo Integral</h3>
+            <p>Este Acordo constitui o acordo integral entre você e ANA SARA DA SILVA SAMPAIO em relação ao uso do App e substitui todos os acordos anteriores.</p>
+
+            <h3>Fale Conosco</h3>
+            <p>Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco em: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Última atualização: 6 de maio de 2026</p>
+        </section>
+
+        <!-- Spanish -->
+        <section id="terms-of-use-es" class="section" lang="es" style="display:none;">
+            <h2>Términos de Uso</h2>
+            <p>v1.0 | 6 de mayo de 2026</p>
+
+            <h3>Introducción</h3>
+            <p>Bienvenido a Currency Converter. Al descargar o usar esta aplicación ("App"), usted acepta quedar vinculado por estos Términos de Uso ("Acuerdo"). Si no está de acuerdo con estos términos, no utilice la App.</p>
+
+            <h3>Uso de la App</h3>
+            <p>ANA SARA DA SILVA SAMPAIO le otorga una licencia no exclusiva, intransferible y limitada para usar la App con fines personales y no comerciales. No puede usar la App con ningún propósito ilegal o no autorizado. Los tipos de cambio mostrados en la App se proporcionan únicamente con fines informativos y pueden no reflejar las tasas de mercado en tiempo real. No somos responsables de las decisiones financieras tomadas en base a la información proporcionada por la App.</p>
+
+            <h3>Propiedad Intelectual</h3>
+            <p>La App, incluyendo pero no limitado a su diseño, software y contenido, es propiedad de ANA SARA DA SILVA SAMPAIO y está protegida por las leyes de propiedad intelectual. No puede copiar, modificar, distribuir, vender ni transferir ninguna parte de la App sin nuestro consentimiento previo por escrito.</p>
+
+            <h3>Exclusión de Garantías</h3>
+            <p>La App se proporciona "tal cual" sin garantías de ningún tipo, expresas o implícitas. No garantizamos que la App esté libre de errores, sea ininterrumpida, o que los tipos de cambio mostrados sean precisos o actualizados. El uso de la App es bajo su propio riesgo.</p>
+
+            <h3>Limitación de Responsabilidad</h3>
+            <p>ANA SARA DA SILVA SAMPAIO no será responsable de ningún daño de ningún tipo que surja del uso de la App, incluyendo pero no limitado a daños directos, indirectos, incidentales, punitivos y consecuentes.</p>
+
+            <h3>Indemnización</h3>
+            <p>Usted acepta indemnizar y eximir de responsabilidad a ANA SARA DA SILVA SAMPAIO, sus afiliados, directivos, agentes y empleados de cualquier reclamación, demanda o daño, incluidos los honorarios razonables de abogados, que surjan de su uso de la App o de su incumplimiento de este Acuerdo.</p>
+
+            <h3>Terminación</h3>
+            <p>ANA SARA DA SILVA SAMPAIO puede rescindir este Acuerdo en cualquier momento sin previo aviso. Tras la rescisión, debe cesar de inmediato todo uso de la App.</p>
+
+            <h3>Ley Aplicable</h3>
+            <p>Este Acuerdo se regirá e interpretará de conformidad con las leyes de Brasil, sin tener en cuenta los principios de conflicto de leyes.</p>
+
+            <h3>Acuerdo Completo</h3>
+            <p>Este Acuerdo constituye el acuerdo completo entre usted y ANA SARA DA SILVA SAMPAIO con respecto al uso de la App y reemplaza todos los acuerdos anteriores.</p>
+
+            <h3>Contáctenos</h3>
+            <p>Si tiene alguna pregunta sobre estos Términos de Uso, puede contactarnos en: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Última actualización: 6 de mayo de 2026</p>
+        </section>
+
+        <!-- French -->
+        <section id="terms-of-use-fr" class="section" lang="fr" style="display:none;">
+            <h2>Conditions d'Utilisation</h2>
+            <p>v1.0 | 6 mai 2026</p>
+
+            <h3>Introduction</h3>
+            <p>Bienvenue sur Currency Converter. En téléchargeant ou en utilisant cette application ("App"), vous acceptez d'être lié par ces Conditions d'Utilisation ("Accord"). Si vous n'êtes pas d'accord avec ces conditions, veuillez ne pas utiliser l'App.</p>
+
+            <h3>Utilisation de l'App</h3>
+            <p>ANA SARA DA SILVA SAMPAIO vous accorde une licence non exclusive, non transférable et limitée pour utiliser l'App à des fins personnelles et non commerciales. Vous ne pouvez pas utiliser l'App à des fins illégales ou non autorisées. Les taux de change affichés dans l'App sont fournis à titre informatif uniquement et peuvent ne pas refléter les taux du marché en temps réel. Nous ne sommes pas responsables des décisions financières prises sur la base des informations fournies par l'App.</p>
+
+            <h3>Propriété Intellectuelle</h3>
+            <p>L'App, y compris mais sans s'y limiter sa conception, son logiciel et son contenu, est la propriété de ANA SARA DA SILVA SAMPAIO et est protégée par les lois sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer, vendre ou transférer une partie de l'App sans notre consentement écrit préalable.</p>
+
+            <h3>Exclusion de Garanties</h3>
+            <p>L'App est fournie « telle quelle » sans aucune garantie, expresse ou implicite. Nous ne garantissons pas que l'App sera sans erreur, ininterrompue, ou que les taux de change affichés seront exacts ou à jour. L'utilisation de l'App est à vos propres risques.</p>
+
+            <h3>Limitation de Responsabilité</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ne sera pas responsable des dommages de toute nature résultant de l'utilisation de l'App, y compris mais sans s'y limiter les dommages directs, indirects, accessoires, punitifs et consécutifs.</p>
+
+            <h3>Indemnisation</h3>
+            <p>Vous acceptez d'indemniser et de dégager de toute responsabilité ANA SARA DA SILVA SAMPAIO, ses affiliés, dirigeants, agents et employés de toute réclamation, demande ou dommage, y compris les honoraires raisonnables d'avocat, résultant de votre utilisation de l'App ou de votre violation de cet Accord.</p>
+
+            <h3>Résiliation</h3>
+            <p>ANA SARA DA SILVA SAMPAIO peut résilier cet Accord à tout moment sans préavis. À la résiliation, vous devez immédiatement cesser toute utilisation de l'App.</p>
+
+            <h3>Droit Applicable</h3>
+            <p>Cet Accord sera régi et interprété conformément aux lois du Brésil, sans tenir compte des principes de conflit de lois.</p>
+
+            <h3>Accord Intégral</h3>
+            <p>Cet Accord constitue l'accord intégral entre vous et ANA SARA DA SILVA SAMPAIO concernant l'utilisation de l'App et remplace tous les accords antérieurs.</p>
+
+            <h3>Nous Contacter</h3>
+            <p>Si vous avez des questions concernant ces Conditions d'Utilisation, veuillez nous contacter à : <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Dernière mise à jour : 6 mai 2026</p>
+        </section>
+
+        <!-- German -->
+        <section id="terms-of-use-de" class="section" lang="de" style="display:none;">
+            <h2>Nutzungsbedingungen</h2>
+            <p>v1.0 | 6. Mai 2026</p>
+
+            <h3>Einleitung</h3>
+            <p>Willkommen bei Currency Converter. Durch das Herunterladen oder Verwenden dieser Anwendung („App") stimmen Sie zu, an diese Nutzungsbedingungen („Vereinbarung") gebunden zu sein. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die App bitte nicht.</p>
+
+            <h3>App-Nutzung</h3>
+            <p>ANA SARA DA SILVA SAMPAIO gewährt Ihnen eine nicht ausschließliche, nicht übertragbare und eingeschränkte Lizenz zur Nutzung der App für persönliche, nicht kommerzielle Zwecke. Sie dürfen die App nicht für illegale oder nicht autorisierte Zwecke verwenden. Die in der App angezeigten Wechselkurse dienen nur zu Informationszwecken und spiegeln möglicherweise nicht die aktuellen Marktkurse wider. Wir sind nicht verantwortlich für finanzielle Entscheidungen, die auf der Grundlage der von der App bereitgestellten Informationen getroffen werden.</p>
+
+            <h3>Geistiges Eigentum</h3>
+            <p>Die App, einschließlich aber nicht beschränkt auf ihr Design, ihre Software und ihren Inhalt, ist Eigentum von ANA SARA DA SILVA SAMPAIO und ist durch Gesetze zum Schutz des geistigen Eigentums geschützt. Sie dürfen keinen Teil der App ohne unsere vorherige schriftliche Zustimmung kopieren, ändern, verbreiten, verkaufen oder übertragen.</p>
+
+            <h3>Haftungsausschluss</h3>
+            <p>Die App wird „wie besehen" ohne jegliche Garantien, weder ausdrücklich noch stillschweigend, bereitgestellt. Wir garantieren nicht, dass die App fehlerfrei oder ununterbrochen funktioniert oder dass die angezeigten Wechselkurse korrekt oder aktuell sind. Die Nutzung der App erfolgt auf Ihr eigenes Risiko.</p>
+
+            <h3>Haftungsbeschränkung</h3>
+            <p>ANA SARA DA SILVA SAMPAIO haftet nicht für Schäden jeglicher Art, die aus der Nutzung der App entstehen, einschließlich aber nicht beschränkt auf direkte, indirekte, zufällige, strafende und Folgeschäden.</p>
+
+            <h3>Schadloshaltung</h3>
+            <p>Sie stimmen zu, ANA SARA DA SILVA SAMPAIO, ihre verbundenen Unternehmen, Führungskräfte, Vertreter und Mitarbeiter von Ansprüchen, Forderungen oder Schäden, einschließlich angemessener Anwaltskosten, die aus Ihrer Nutzung der App oder Ihrer Verletzung dieser Vereinbarung entstehen, freizustellen und schadlos zu halten.</p>
+
+            <h3>Kündigung</h3>
+            <p>ANA SARA DA SILVA SAMPAIO kann diese Vereinbarung jederzeit ohne Vorankündigung kündigen. Nach der Kündigung müssen Sie die Nutzung der App sofort einstellen.</p>
+
+            <h3>Anwendbares Recht</h3>
+            <p>Diese Vereinbarung unterliegt den Gesetzen Brasiliens und wird nach diesen ausgelegt, ohne Rücksicht auf Kollisionsnormen.</p>
+
+            <h3>Gesamte Vereinbarung</h3>
+            <p>Diese Vereinbarung stellt die gesamte Vereinbarung zwischen Ihnen und ANA SARA DA SILVA SAMPAIO bezüglich der Nutzung der App dar und ersetzt alle vorherigen Vereinbarungen.</p>
+
+            <h3>Kontakt</h3>
+            <p>Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Zuletzt aktualisiert: 6. Mai 2026</p>
+        </section>
+
+        <!-- Italian -->
+        <section id="terms-of-use-it" class="section" lang="it" style="display:none;">
+            <h2>Termini di Utilizzo</h2>
+            <p>v1.0 | 6 maggio 2026</p>
+
+            <h3>Introduzione</h3>
+            <p>Benvenuto su Currency Converter. Scaricando o utilizzando questa applicazione ("App"), accetti di essere vincolato da questi Termini di Utilizzo ("Accordo"). Se non sei d'accordo con questi termini, non utilizzare l'App.</p>
+
+            <h3>Utilizzo dell'App</h3>
+            <p>ANA SARA DA SILVA SAMPAIO ti concede una licenza non esclusiva, non trasferibile e limitata per utilizzare l'App per scopi personali e non commerciali. Non puoi utilizzare l'App per scopi illegali o non autorizzati. I tassi di cambio visualizzati nell'App sono forniti solo a scopo informativo e potrebbero non riflettere i tassi di mercato in tempo reale. Non siamo responsabili per decisioni finanziarie prese sulla base delle informazioni fornite dall'App.</p>
+
+            <h3>Proprietà Intellettuale</h3>
+            <p>L'App, inclusi ma non limitati a design, software e contenuti, è di proprietà di ANA SARA DA SILVA SAMPAIO ed è protetta dalle leggi sulla proprietà intellettuale. Non puoi copiare, modificare, distribuire, vendere o trasferire alcuna parte dell'App senza il nostro previo consenso scritto.</p>
+
+            <h3>Esclusione di Garanzie</h3>
+            <p>L'App è fornita "così com'è" senza alcuna garanzia, espressa o implicita. Non garantiamo che l'App sia priva di errori, ininterrotta, o che i tassi di cambio visualizzati siano accurati o aggiornati. L'utilizzo dell'App è a tuo rischio.</p>
+
+            <h3>Limitazione di Responsabilità</h3>
+            <p>ANA SARA DA SILVA SAMPAIO non sarà responsabile per danni di alcun tipo derivanti dall'utilizzo dell'App, inclusi ma non limitati a danni diretti, indiretti, incidentali, punitivi e consequenziali.</p>
+
+            <h3>Indennizzo</h3>
+            <p>Accetti di indennizzare e tenere indenne ANA SARA DA SILVA SAMPAIO, le sue affiliate, funzionari, agenti e dipendenti da qualsiasi reclamo, richiesta o danno, incluse ragionevoli spese legali, derivanti dall'utilizzo dell'App o dalla violazione di questo Accordo.</p>
+
+            <h3>Risoluzione</h3>
+            <p>ANA SARA DA SILVA SAMPAIO può risolvere questo Accordo in qualsiasi momento senza preavviso. Alla risoluzione, è necessario cessare immediatamente qualsiasi utilizzo dell'App.</p>
+
+            <h3>Legge Applicabile</h3>
+            <p>Questo Accordo sarà regolato e interpretato in conformità con le leggi del Brasile, senza riguardo ai principi di conflitto di leggi.</p>
+
+            <h3>Accordo Completo</h3>
+            <p>Questo Accordo costituisce l'accordo completo tra te e ANA SARA DA SILVA SAMPAIO riguardo all'utilizzo dell'App e sostituisce tutti gli accordi precedenti.</p>
+
+            <h3>Contattaci</h3>
+            <p>Se hai domande su questi Termini di Utilizzo, contattaci all'indirizzo: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Ultimo aggiornamento: 6 maggio 2026</p>
+        </section>
+
+        <!-- Dutch -->
+        <section id="terms-of-use-nl" class="section" lang="nl" style="display:none;">
+            <h2>Gebruiksvoorwaarden</h2>
+            <p>v1.0 | 6 mei 2026</p>
+
+            <h3>Introductie</h3>
+            <p>Welkom bij Currency Converter. Door deze applicatie ("App") te downloaden of te gebruiken, stemt u ermee in gebonden te zijn aan deze Gebruiksvoorwaarden ("Overeenkomst"). Als u niet akkoord gaat met deze voorwaarden, gebruik de App dan niet.</p>
+
+            <h3>App-gebruik</h3>
+            <p>ANA SARA DA SILVA SAMPAIO verleent u een niet-exclusieve, niet-overdraagbare en beperkte licentie om de App te gebruiken voor persoonlijke, niet-commerciële doeleinden. U mag de App niet gebruiken voor illegale of niet-geautoriseerde doeleinden. De wisselkoersen die in de App worden weergegeven, zijn uitsluitend voor informatieve doeleinden en weerspiegelen mogelijk geen real-time markttarieven. Wij zijn niet verantwoordelijk voor financiële beslissingen die worden genomen op basis van de informatie die door de App wordt verstrekt.</p>
+
+            <h3>Intellectueel Eigendom</h3>
+            <p>De App, inclusief maar niet beperkt tot het ontwerp, de software en de inhoud ervan, is eigendom van ANA SARA DA SILVA SAMPAIO en wordt beschermd door intellectuele eigendomswetten. U mag geen deel van de App kopiëren, wijzigen, distribueren, verkopen of overdragen zonder onze voorafgaande schriftelijke toestemming.</p>
+
+            <h3>Uitsluiting van Garanties</h3>
+            <p>De App wordt geleverd "zoals deze is" zonder enige garanties, expliciet of impliciet. Wij garanderen niet dat de App foutloos of ononderbroken zal zijn, of dat de weergegeven wisselkoersen nauwkeurig of actueel zijn. Het gebruik van de App is op eigen risico.</p>
+
+            <h3>Beperking van Aansprakelijkheid</h3>
+            <p>ANA SARA DA SILVA SAMPAIO is niet aansprakelijk voor enige schade van welke aard dan ook die voortvloeit uit het gebruik van de App, inclusief maar niet beperkt tot directe, indirecte, incidentele, punitieve en gevolgschade.</p>
+
+            <h3>Vrijwaring</h3>
+            <p>U stemt ermee in ANA SARA DA SILVA SAMPAIO, haar gelieerde ondernemingen, functionarissen, agenten en werknemers te vrijwaren en te beschermen tegen claims, eisen of schade, inclusief redelijke advocatenkosten, die voortvloeien uit uw gebruik van de App of uw schending van deze Overeenkomst.</p>
+
+            <h3>Beëindiging</h3>
+            <p>ANA SARA DA SILVA SAMPAIO kan deze Overeenkomst op elk moment zonder kennisgeving beëindigen. Na beëindiging moet u onmiddellijk elk gebruik van de App staken.</p>
+
+            <h3>Toepasselijk Recht</h3>
+            <p>Deze Overeenkomst wordt beheerst door en geïnterpreteerd in overeenstemming met de wetten van Brazilië, zonder rekening te houden met conflicterende rechtsprincipes.</p>
+
+            <h3>Volledige Overeenkomst</h3>
+            <p>Deze Overeenkomst vormt de volledige overeenkomst tussen u en ANA SARA DA SILVA SAMPAIO met betrekking tot het gebruik van de App en vervangt alle eerdere overeenkomsten.</p>
+
+            <h3>Neem Contact Op</h3>
+            <p>Als u vragen heeft over deze Gebruiksvoorwaarden, neem dan contact met ons op via: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Laatst bijgewerkt: 6 mei 2026</p>
+        </section>
+
+        <!-- Russian -->
+        <section id="terms-of-use-ru" class="section" lang="ru" style="display:none;">
+            <h2>Условия Использования</h2>
+            <p>v1.0 | 6 мая 2026 г.</p>
+
+            <h3>Введение</h3>
+            <p>Добро пожаловать в Currency Converter. Загружая или используя это приложение («Приложение»), вы соглашаетесь соблюдать настоящие Условия использования («Соглашение»). Если вы не согласны с этими условиями, пожалуйста, не используйте Приложение.</p>
+
+            <h3>Использование Приложения</h3>
+            <p>ANA SARA DA SILVA SAMPAIO предоставляет вам неисключительную, непередаваемую и ограниченную лицензию на использование Приложения в личных, некоммерческих целях. Вы не можете использовать Приложение в незаконных или несанкционированных целях. Курсы валют, отображаемые в Приложении, предоставляются только в информационных целях и могут не отражать актуальные рыночные курсы. Мы не несём ответственности за финансовые решения, принятые на основании информации, предоставленной Приложением.</p>
+
+            <h3>Интеллектуальная Собственность</h3>
+            <p>Приложение, включая, помимо прочего, его дизайн, программное обеспечение и контент, является собственностью ANA SARA DA SILVA SAMPAIO и защищено законами об интеллектуальной собственности. Вы не можете копировать, изменять, распространять, продавать или передавать какую-либо часть Приложения без нашего предварительного письменного согласия.</p>
+
+            <h3>Отказ от Гарантий</h3>
+            <p>Приложение предоставляется «как есть» без каких-либо гарантий, явных или подразумеваемых. Мы не гарантируем, что Приложение будет работать без ошибок и перебоев, а также что отображаемые курсы валют будут точными или актуальными. Использование Приложения осуществляется на ваш собственный риск.</p>
+
+            <h3>Ограничение Ответственности</h3>
+            <p>ANA SARA DA SILVA SAMPAIO не несёт ответственности за ущерб любого рода, возникший в результате использования Приложения, включая, помимо прочего, прямой, косвенный, случайный, штрафной и косвенный ущерб.</p>
+
+            <h3>Возмещение Ущерба</h3>
+            <p>Вы соглашаетесь возмещать ущерб и защищать ANA SARA DA SILVA SAMPAIO, её аффилированных лиц, должностных лиц, агентов и сотрудников от любых претензий, требований или убытков, включая разумные судебные издержки, возникающих в результате вашего использования Приложения или нарушения настоящего Соглашения.</p>
+
+            <h3>Расторжение</h3>
+            <p>ANA SARA DA SILVA SAMPAIO может расторгнуть настоящее Соглашение в любое время без предварительного уведомления. После расторжения вы должны немедленно прекратить все использование Приложения.</p>
+
+            <h3>Применимое Право</h3>
+            <p>Настоящее Соглашение регулируется и толкуется в соответствии с законодательством Бразилии, без учёта принципов коллизионного права.</p>
+
+            <h3>Полное Соглашение</h3>
+            <p>Настоящее Соглашение является полным соглашением между вами и ANA SARA DA SILVA SAMPAIO в отношении использования Приложения и заменяет все предыдущие соглашения.</p>
+
+            <h3>Связаться с Нами</h3>
+            <p>Если у вас есть вопросы по настоящим Условиям использования, свяжитесь с нами по адресу: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>Последнее обновление: 6 мая 2026 г.</p>
+        </section>
+
+        <!-- Chinese -->
+        <section id="terms-of-use-zh" class="section" lang="zh" style="display:none;">
+            <h2>使用条款</h2>
+            <p>v1.0 | 2026年5月6日</p>
+
+            <h3>简介</h3>
+            <p>欢迎使用Currency Converter。下载或使用本应用程序（"App"）即表示您同意受本使用条款（"协议"）约束。如果您不同意这些条款，请勿使用本App。</p>
+
+            <h3>App使用</h3>
+            <p>ANA SARA DA SILVA SAMPAIO授予您一项非独家、不可转让的有限许可，以将App用于个人、非商业目的。您不得将App用于任何非法或未经授权的目的。App中显示的汇率仅供参考，可能不反映实时市场汇率。我们对基于App提供信息所做出的任何财务决策不承担责任。</p>
+
+            <h3>知识产权</h3>
+            <p>App，包括但不限于其设计、软件和内容，是ANA SARA DA SILVA SAMPAIO的财产，受知识产权法律保护。未经我们事先书面同意，您不得复制、修改、分发、销售或转让App的任何部分。</p>
+
+            <h3>免责声明</h3>
+            <p>App按"原样"提供，不提供任何明示或暗示的保证。我们不保证App将无错误运行、不中断，或显示的汇率准确或最新。使用App的风险由您自行承担。</p>
+
+            <h3>责任限制</h3>
+            <p>ANA SARA DA SILVA SAMPAIO对因使用App而产生的任何类型损害不承担责任，包括但不限于直接、间接、偶然、惩罚性和后果性损害。</p>
+
+            <h3>赔偿</h3>
+            <p>您同意赔偿并使ANA SARA DA SILVA SAMPAIO及其附属机构、高管、代理人和员工免受因您使用App或违反本协议而产生的任何索赔、要求或损害（包括合理的律师费）。</p>
+
+            <h3>终止</h3>
+            <p>ANA SARA DA SILVA SAMPAIO可随时无需通知地终止本协议。终止后，您必须立即停止对App的所有使用。</p>
+
+            <h3>适用法律</h3>
+            <p>本协议受巴西法律管辖并按其解释，不考虑法律冲突原则。</p>
+
+            <h3>完整协议</h3>
+            <p>本协议构成您与ANA SARA DA SILVA SAMPAIO就App使用的完整协议，并取代所有先前的协议。</p>
+
+            <h3>联系我们</h3>
+            <p>如果您对本使用条款有任何疑问，请通过以下方式联系我们：<a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>。</p>
+
+            <p>最后更新：2026年5月6日</p>
+        </section>
+
+        <!-- Arabic -->
+        <section id="terms-of-use-ar" class="section" lang="ar" dir="rtl" style="display:none;">
+            <h2>شروط الاستخدام</h2>
+            <p>v1.0 | 6 مايو 2026</p>
+
+            <h3>مقدمة</h3>
+            <p>مرحباً بك في Currency Converter. بتنزيل هذا التطبيق ("التطبيق") أو استخدامه، فإنك توافق على الالتزام بشروط الاستخدام هذه ("الاتفاقية"). إذا كنت لا توافق على هذه الشروط، فلا تستخدم التطبيق.</p>
+
+            <h3>استخدام التطبيق</h3>
+            <p>تمنحك ANA SARA DA SILVA SAMPAIO ترخيصاً غير حصري وغير قابل للنقل ومحدوداً لاستخدام التطبيق لأغراض شخصية وغير تجارية. لا يجوز لك استخدام التطبيق لأي أغراض غير قانونية أو غير مصرح بها. أسعار الصرف المعروضة في التطبيق مقدمة لأغراض إعلامية فقط وقد لا تعكس أسعار السوق في الوقت الفعلي. لسنا مسؤولين عن أي قرارات مالية تُتخذ بناءً على المعلومات المقدمة من التطبيق.</p>
+
+            <h3>الملكية الفكرية</h3>
+            <p>التطبيق، بما في ذلك على سبيل المثال لا الحصر تصميمه وبرامجه ومحتواه، هو ملك لـ ANA SARA DA SILVA SAMPAIO ومحمي بموجب قوانين الملكية الفكرية. لا يجوز لك نسخ أو تعديل أو توزيع أو بيع أو نقل أي جزء من التطبيق دون موافقتنا الكتابية المسبقة.</p>
+
+            <h3>إخلاء المسؤولية عن الضمانات</h3>
+            <p>يُقدَّم التطبيق "كما هو" دون أي ضمانات صريحة أو ضمنية. لا نضمن أن التطبيق سيكون خالياً من الأخطاء أو غير منقطع، أو أن أسعار الصرف المعروضة ستكون دقيقة أو محدّثة. استخدامك للتطبيق على مسؤوليتك الخاصة.</p>
+
+            <h3>تحديد المسؤولية</h3>
+            <p>لن تكون ANA SARA DA SILVA SAMPAIO مسؤولة عن أي أضرار من أي نوع ناجمة عن استخدام التطبيق، بما في ذلك على سبيل المثال لا الحصر الأضرار المباشرة وغير المباشرة والعرضية والعقابية والتبعية.</p>
+
+            <h3>التعويض</h3>
+            <p>توافق على تعويض ANA SARA DA SILVA SAMPAIO وشركاتها التابعة ومسؤوليها ووكلائها وموظفيها وإبراء ذمتهم من أي مطالبات أو طلبات أو أضرار، بما في ذلك أتعاب المحامين المعقولة، الناجمة عن استخدامك للتطبيق أو انتهاكك لهذه الاتفاقية.</p>
+
+            <h3>الإنهاء</h3>
+            <p>يجوز لـ ANA SARA DA SILVA SAMPAIO إنهاء هذه الاتفاقية في أي وقت دون إشعار. عند الإنهاء، يجب عليك التوقف فوراً عن أي استخدام للتطبيق.</p>
+
+            <h3>القانون الحاكم</h3>
+            <p>تخضع هذه الاتفاقية لقوانين البرازيل وتُفسَّر وفقاً لها، دون مراعاة مبادئ تعارض القوانين.</p>
+
+            <h3>الاتفاقية الكاملة</h3>
+            <p>تشكّل هذه الاتفاقية الاتفاقية الكاملة بينك وبين ANA SARA DA SILVA SAMPAIO فيما يتعلق باستخدام التطبيق وتحلّ محل جميع الاتفاقيات السابقة.</p>
+
+            <h3>اتصل بنا</h3>
+            <p>إذا كانت لديك أي أسئلة حول شروط الاستخدام هذه، يرجى التواصل معنا على: <a href="mailto:devpedrosampaio@gmail.com">devpedrosampaio@gmail.com</a>.</p>
+
+            <p>آخر تحديث: 6 مايو 2026</p>
+        </section>
+
+        <div class="last-updated">
+            &copy; 2026 ANA SARA DA SILVA SAMPAIO. All rights reserved.
+        </div>
+    </div>
+
+    <script>
+        const LANGS = ['en','pt','es','fr','de','it','nl','ru','zh','ar'];
+
+        const privacySections = LANGS.map(l => 'privacy-policy-' + l);
+        const termsSections   = LANGS.map(l => 'terms-of-use-' + l);
+
+        function showDoc(type, lang) {
+            privacySections.forEach(id => {
+                document.getElementById(id).style.display = (type === 'privacy' && id.endsWith(lang)) ? '' : 'none';
+            });
+            termsSections.forEach(id => {
+                document.getElementById(id).style.display = (type === 'terms' && id.endsWith(lang)) ? '' : 'none';
+            });
+            document.getElementById('nav-privacy').style.fontWeight = type === 'privacy' ? '700' : '500';
+            document.getElementById('nav-terms').style.fontWeight   = type === 'terms'   ? '700' : '500';
+        }
+
+        let currentDoc  = 'privacy';
+        let currentLang = 'en';
+
+        document.getElementById('nav-privacy').addEventListener('click', function(e) {
+            e.preventDefault();
+            currentDoc = 'privacy';
+            showDoc(currentDoc, currentLang);
+        });
+
+        document.getElementById('nav-terms').addEventListener('click', function(e) {
+            e.preventDefault();
+            currentDoc = 'terms';
+            showDoc(currentDoc, currentLang);
+        });
+
+        document.getElementById('language-select').addEventListener('change', function() {
+            currentLang = this.value;
+            showDoc(currentDoc, currentLang);
+
+            // RTL support for Arabic
+            document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+        });
+
+        // Init: show Privacy Policy in English
+        showDoc('privacy', 'en');
+    </script>
+</body>
+</html>
